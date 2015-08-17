@@ -1,0 +1,439 @@
+
+/*==============================================================*/
+/*              STYLE FOR SHORTCODE PORTFOLIO                   */
+/*==============================================================*/
+
+.item-portfolio .opacity_0 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.item-portfolio .opacity_6 {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/* FILTER */
+
+#portfolio-galleries .portfolio-filter {
+	overflow:hidden;
+	padding:0 10px;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(233,233,233,1) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(62%,rgba(255,255,255,1)), color-stop(100%,rgba(233,233,233,1))); 
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 );
+	border:1px solid #d0d0d0;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+#portfolio-galleries .portfolio-filter li {
+	position:relative;
+	list-style:none;
+	float:left;
+	margin:0;
+	height:44px;
+	line-height:44px;
+}
+
+#portfolio-galleries .portfolio-filter li a {
+	color:#848484;
+    position: relative;
+    line-height: 20px;
+	font-weight:bold;
+    text-transform: capitalize;
+    padding: 13px 10px;
+
+}
+
+#portfolio-galleries .portfolio-filter li:hover a {
+	color:#202020;
+}
+
+#portfolio-galleries .portfolio-filter li.active a {
+	cursor:text;
+	color:#202020;
+}
+
+.padding #portfolio-galleries-holder .item-portfolio > div {
+	padding:0 10px;
+}
+
+.no-padding #portfolio-galleries-holder {
+	padding:0 10px;
+}
+
+/* STYLE FOR PORTFOLIO ITEM */
+.item-portfolio .thumb-tag {
+	/*margin:10px 0;*/
+}
+
+.item-portfolio .post-title {
+	font-family:"arial";
+	line-height:18px;
+	text-transform:none;
+	color:#848484;
+	text-align:center;
+	margin:10px 0 15px;
+}
+
+.item-portfolio .post-title a {
+	color:#848484;
+	font-size:14px;
+	line-height:16px;
+}
+
+.item-portfolio .post-title a:hover {
+	color:#000;
+}
+
+/* STYLE FOR HOVER */
+
+#portfolio-galleries-holder {
+	margin:0 -10px 25px;
+	overflow:hidden;
+}
+
+#portfolio-galleries-holder .item-portfolio .thumb-image img {
+	margin:0;
+}
+
+.item-portfolio .thumb-holder {
+    position: relative;
+}
+
+.item-portfolio .thumb-holder .thumb-image.post-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.item-portfolio .thumb-holder .thumb-image.post-item .image {
+    overflow: hidden;
+    width: 100%!important;
+    *width: auto!important;
+}
+
+.item-portfolio .thumb-holder .thumb-image.post-item .image img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.item-portfolio .thumb-image-hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.item-portfolio .thumb-image-hover .background {
+    background-color: #0C0C0C;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.thumb-image-hover .icons {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.item-portfolio .thumb-image-hover .thumb-image {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background: url(../images/zoom_gallery.png) no-repeat 0 0;
+    box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+    width: 50px;
+    height: 50px;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+}
+
+.item-portfolio .thumb-image-hover .thumb-image:hover {
+    background-position: 100% 100%;
+}
+
+.item-portfolio .thumb-image-hover .thumb-video {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background: url(../images/play_gallery.png) no-repeat 0 0;
+    box-shadow: none!important;
+    width: 50px;
+    height: 50px;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+}
+
+.item-portfolio .thumb-image-hover .thumb-video:hover {
+    background-position: 100% 100%;
+}
+
+.item-portfolio .thumb-image-hover .link-gallery {
+	position: absolute;
+    top: 100%;
+    left: 100%;
+    display: inline-block;
+    background: url(../images/link-icon.png) no-repeat 0 0;
+    box-shadow: none!important;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+}
+
+.item-portfolio .thumb-image-hover .link-gallery:hover {
+    background-position: 100% 100%;
+}
+
+/* NAVIGATION */
+
+#portfolio-container .end_content {
+    position: relative;
+    padding: 6px 20px 0;
+	border:1px solid #d0d0d0;
+}
+
+#portfolio-container .end_content .page_navi {
+    text-align: center;
+	line-height:0;
+}
+
+#portfolio-container .end_content .count_project {
+	display:inline-block;
+	float:left;
+	line-height:28px;
+	margin-bottom:6px;
+	display:none;
+}
+
+#portfolio-container .end_content .wp-pagenavi {
+    text-align: center;
+}
+
+#portfolio-container .end_content .wp-pagenavi * {
+    float: none;
+}
+
+#portfolio-container .page_navi {
+    overflow: hidden;
+}
+
+#portfolio-container .page_navi .wp-pagenavi {
+    overflow: hidden;
+}
+
+#portfolio-container .page_navi .nav-content, #portfolio-container .page_navi .wp-pagenavi {
+
+}
+
+#portfolio-container .page_navi .nav-content .wp-pagenavi {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi span, 
+#portfolio-container .page_navi .wp-pagenavi a {
+	margin-bottom:6px;
+}
+
+#portfolio-container .page_navi .wp-pagenavi span:hover, #portfolio-container .page_navi .wp-pagenavi a:hover {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi span.current {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.previouspostslink {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.previouspostslink:hover {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.nextpostslink {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.nextpostslink:hover {
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.nextpostslink:before {
+
+}
+
+#portfolio-container .page_navi .wp-pagenavi a.nextpostslink:after {
+
+}
+
+/* LIGHT BOX */
+.fancybox-overlay {
+    overflow-x: hidden!important;
+}
+
+.fancybox-skin {
+    padding: 0!important;
+}
+
+.fancybox-overlay .fancybox-skin {
+    background: none!important;
+}
+
+.fancybox-overlay .fancybox-skin {
+    padding: 0!important;
+    border-radius: 0!important;
+}
+
+.fancybox-overlay .fancybox-prev-clone {
+    left: 30px;
+    background-color: #fff;
+}
+
+.fancybox-overlay .fancybox-next-clone {
+    right: 30px;
+    background-color: #fff;
+}
+
+.fancybox-overlay .fancybox-prev-clone ,.fancybox-next-clone {
+    visibility: visible;
+    position: absolute;
+    z-index: 10000;
+    top: 50%;
+    margin-top: -46px;
+    display: block;
+    width: 46px;
+    height: 46px;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.fancybox-overlay .fancybox-prev-clone span {
+    display: block;
+    background: url(../images/lightbox.png) no-repeat -13px 1px;
+    width: 46px;
+    height: 46px;
+}
+
+.fancybox-overlay .fancybox-next-clone span {
+    display: block;
+    background: url(../images/lightbox.png) no-repeat -79px 1px;
+    width: 46px;
+    height: 46px;
+}
+
+.fancybox-overlay .fancybox-close-clone {
+    position: absolute;
+    z-index: 10000;
+    right: 30px;
+    top: 30px;
+    width: 46px;
+    height: 46px;
+    background: #111 url(../images/lightbox.png) no-repeat -46px 0;
+    display: block;
+}
+
+.fancybox-overlay .fancybox-title-clone {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    visibility: visible;
+    color: #3F3F3F;
+    font-size: 16px;
+    font-family: georgia;
+}
+
+.fancybox-overlay .fancybox-title-clone span.child {
+    margin-right: 0;
+    padding: 0;
+    background: none;
+    color: #3F3F3F;
+    font-weight: normal;
+    border-radius: 0;
+    text-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    -o-text-shadow: none;
+}
+
+.fancybox-overlay .fancybox-opened {
+    z-index: 100;
+}
+
+.fancybox-image {
+    display: block!important;
+}
+
+.fancybox-skin {
+    background-color: pink;
+    width: 60px!important;
+    display: block;
+}
+
+.fancybox-wrap {
+    z-index: 10000!important;
+    position: absolute;
+    border: 1px solid #fff!important;
+    display: block;
+    box-sizing: border-box;
+}
+
+.fancybox-close-clone {
+    display: inline-block!important;
+    z-index: 10000000!important;
+    background-color: #fff!important;
+    position: absolute;
+}
+
+.fancybox-outer {
+    border: 1px solid blue;
+    width: 50px!important;
+    display: block;
+    background-color: blue;
+}
+
+.fancybox-image {
+    position: relative!important;
+    z-index: 10000!important;
+}
+
+/* ====================================================================== */
+/*                          RESPONSIVE                                    */
+/* ====================================================================== */
+
+@media 
+only screen and (max-width-device-width: 767px),
+only screen and (max-width: 767px) {
+	#portfolio-container .end_content .count_project {
+		display:none;
+	}
+	.hover-default.thumb-image-hover {
+		display:none!important;
+	}
+}

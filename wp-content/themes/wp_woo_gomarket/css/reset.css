@@ -1,0 +1,825 @@
+
+/* DEFAULT CLASS OF WORDPRESS */
+.sticky{}
+.bypostauthor{}
+.gallery-caption {}
+.screen-reader-text {display:none;}
+.edit-link{display:none;}
+
+
+/* RESET */
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body
+{
+	font-size:13px;
+	line-height:18px;
+	text-align:left;
+	font-weight:normal;
+	font-style:normal;
+	color:#505050;
+	vertical-align: baseline;
+	float:left;
+	width:100%;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	word-wrap:break-word;
+	-ms-word-wrap: break-word;
+	-webkit-text-size-adjust:none;
+	background:#fff;
+}
+
+html
+{ 
+	-webkit-text-size-adjust:none; 
+}
+
+img
+{
+	border:0;
+	vertical-align:top;
+	margin:0 0 15px;
+	max-width:100%;
+	height:auto;
+}
+
+a
+{	font-size:13px;
+	text-decoration:none;
+	cursor:pointer;
+	background:transparent;
+	transition:all 0.2s ease-in-out 0s;
+	-moz-transition:all 0.2s ease-in-out 0s;
+	-webkit-transition:all 0.2s ease-in-out 0s;
+}
+
+a:hover
+{	
+	text-decoration:none;
+	color:#ff6c00;
+	-webkit-tap-highlight-color:transparent;
+	-moz-tap-highlight-color:transparent;
+	-o-tap-highlight-color: transparent
+}
+
+a:focus, input[type="submit"] {
+	outline:none!important;
+}
+
+a.button:hover 
+{
+	text-decoration:none;
+}
+
+input[type^="text"]:focus
+{
+	outline:0;
+	-webkit-tap-highlight-color:transparent;
+	-moz-tap-highlight-color:transparent;
+	-webkit-appearance:none;
+}
+
+select:focus 
+{
+	outline:0;
+}
+
+p 
+{
+	margin:0 0 15px;
+	display:block;
+	line-height:18px;
+}
+
+strong 
+{
+	font-weight:bold;
+}
+
+em 
+{
+	font-style:italic;
+}
+
+pre 
+{
+	overflow:hidden;
+}
+
+ins 
+{
+	text-decoration:none;
+}
+
+mark 
+{
+	background:transparent;
+}
+
+/* Heading */
+
+h1,h2,h3,h4,h5,h6 
+{
+	font-weight:normal;
+	margin:0 0 7px;
+	letter-spacing:-0.3px;
+	color:#202020;
+}
+
+h1
+{
+	font-size:30px;
+	line-height:32px;
+	margin:0 0 14px;
+}
+
+h2
+{
+	font-size:30px;
+	line-height:32px;
+	margin:0 0 17px;
+}
+
+h3
+{
+	font-size:24px;
+	line-height:26px;
+	margin:0 0 19px;
+	font-family:"open sans";
+	text-transform:uppercase;
+	font-weight:900;
+}
+
+h4
+{
+	font-size:14px;
+	line-height:16px;
+	text-transform:uppercase;
+	margin:0 0 22px;
+	font-weight:bold;
+}
+
+h5
+{
+	font-size:13px;
+	line-height:16px;
+	margin:0 0 22px;
+}
+
+h6
+{
+	font-size:13px;
+	line-height:16px;
+	margin:0 0 22px;
+}
+
+/* Form */
+
+form
+{
+	display:inline;
+}
+
+/* Table */
+
+table
+{
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	font-size:100%;
+	width:100%;
+	word-wrap:break-word
+}
+
+table td, 
+table th {
+	text-align:left;
+}
+
+.single-post .single-content table, 
+.widget_text table, 
+.post-info-1 table 
+{
+	width:100%;
+	margin:20px 0;
+	border-width:1px 1px 1px 0;
+	border-style:solid;
+	border-collapse:separate;
+}
+
+.single-post .single-content table th, 
+.widget_text table th, 
+.single-post .single-content table td, 
+.widget_text table td, 
+.post-info-1 table td, 
+.post-info-1 table th 
+{
+	border-width:1px 0 0 1px;
+	border-style:solid;
+	padding:8px;
+	text-align:left;
+	vertical-align:top;
+	line-height:18px;
+}
+
+.single-post .single-content table thead:first-child tr:first-child th, 
+.single-post .single-content table tbody:first-child tr:first-child th, 
+.single-post .single-content table tbody:first-child tr:first-child td,
+.widget_text table thead:first-child tr:first-child th, 
+.widget_text table tbody:first-child tr:first-child th, 
+.widget_text table tbody:first-child tr:first-child td, 
+.post-info-1 table thead:first-child tr:first-child th, 
+.post-info-1 table tbody:first-child tr:first-child th, 
+.post-info-1 table tbody:first-child tr:first-child td 
+{
+	border-top:0;
+}
+
+table label 
+{
+	white-space:normal;
+	font-size:13px;
+	vertical-align:top;
+}
+
+/* List */
+
+ol, 
+ul
+{
+	margin-bottom:15px;
+}
+
+ol li, 
+ul li 
+{
+	line-height:22px;
+	list-style-position:inside
+}
+
+ol ol, 
+ol ul, 
+ul ul,
+ul ol
+{
+	margin-left:16px;
+	margin-bottom:0;
+}
+
+ol ol ol 
+{
+	margin-top:10px;
+	margin-left:18px;
+}
+
+ol li, 
+ul ol li 
+{
+	list-style-type:decimal
+}
+
+ul li 
+{
+	list-style:square inside none
+}
+
+ol ul > li 
+{
+	list-style:circle inside none
+}
+
+ol ol > li 
+{
+	list-style-type:decimal
+}
+
+ol > li > ol > li,ol > ol > li 
+{
+	list-style-type:upper-alpha
+}
+
+ol > li > ol > li > ol > li ,
+ol > ol > ol > li
+{
+	list-style-type:upper-roman
+}
+
+/* Definition Lists */
+
+dl 
+{
+	margin-bottom:20px;
+}
+
+dt, 
+dd 
+{
+	line-height:16px;
+}
+
+dt 
+{
+	font-weight:bold;
+}
+
+dd 
+{
+	margin-left:10px;
+}
+
+/* Content */
+
+del 
+{
+	text-decoration:line-through;
+}
+
+/* blockquote */
+
+blockquote {
+	overflow:hidden;
+	font-style:italic;
+	line-height:16px;
+	padding:0 0 0 20px;
+	margin:0 0 30px;
+	border-width:0 0 0 2px;
+	border-style:solid;
+}
+
+/* code */
+
+body code
+{
+	color:#505050;
+	overflow:hidden;
+	display:block;
+	padding:20px;
+	border:1px dashed;
+	background:#f9f9f9;
+	line-height:22px;
+	margin:5px 0 20px;
+	word-wrap:break-word;
+	word-break:break-all;
+	white-space:normal;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	transition:all 0.2s ease-in-out 0s;
+	-moz-transition:all 0.2s ease-in-out 0s;
+	-webkit-transition:all 0.2s ease-in-out 0s;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	clear:both;
+}
+
+body code:hover 
+{
+	background-color:#f8f7f7;
+}
+
+body table code 
+{
+	white-space:normal
+}
+
+/* Form Elements */
+
+body input,
+body select,
+body textarea
+{
+	font-weight:normal;
+	font-size:12px;
+	vertical-align:middle;
+	max-width:535px;
+}
+
+/* Input */
+
+html input 
+{
+	max-width:100%;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+input, button
+{
+	transition:all 0.3s ease-in-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+}
+
+html input:focus:invalid:focus, 
+html textarea:focus:invalid:focus, 
+html select:focus:invalid:focus 
+{
+	color:#999;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+html input[type^="text"], 
+html input[type^="email"],
+html input[type^="password"] 
+{
+	-webkit-appearance:none;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	font-size:13px;
+	display:inline-block;
+	height:28px;
+	line-height:18px;
+	border-width:1px;
+	border-style:solid;
+	background:#fff;
+	margin:0;
+	padding:0 10px;
+	width:100%;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+html.ie8 input[type^="text"], 
+html.ie8 input[type^="email"],
+html.ie8 input[type^="password"] {
+	padding-top:4px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	html input[type^="text"], 
+	html input[type^="email"],
+	html input[type^="password"] {
+		line-height:27px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{ 
+	html input[type^="text"], 
+	html input[type^="email"],
+	html input[type^="password"] { 
+		line-height:18px;
+	} 
+}
+
+html.ie10 input[type^="text"], 
+html.ie10 input[type^="email"],
+html.ie10 input[type^="password"] {
+	box-shadow:none!important;
+} 
+
+html input[type^=button] 
+{
+	-webkit-appearance:none
+}
+
+html input[type^=button]:focus
+{
+	outline:none!important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button 
+{
+	-webkit-appearance: none;
+}
+
+html input[type^="radio"] 
+{
+	border:0;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){ 
+	html input[type^="radio"] {
+		margin-left:2px;
+		margin-right:2px;
+	} 
+}
+
+html input[type^="checkbox"] 
+{
+	border:0;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+}
+
+textarea 
+{
+	background:#fff;
+	border:1px solid;
+	font-size:11px;
+	padding:5px 8px 4px;
+	width:100%;
+	-webkit-appearance:none;
+	-webkit-border-radius:0!important;
+	transition:all 0.3s ease-in-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-webkit-appearance:none;border-radius:0;
+	-moz-border-radius:0;-webkit-border-radius:0;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+textarea:hover, 
+textarea:focus {
+	border-width:1px;
+}
+
+select
+{
+	background:#fff;
+	border-width:1px;
+	border-style:solid;
+	font-size:11px;
+	padding:6px 8px;
+	max-width:400px;
+}
+
+select option 
+{
+	padding:0 8px;
+}
+
+textarea 
+{
+	overflow:auto;
+}
+
+table 
+{
+	max-width:100%;
+	table-layout:fixed;
+}
+
+table tbody, 
+table tfood,
+table thead
+{
+	max-width:100%;
+}
+
+/* BR */
+br 
+{
+	margin:0 0 5px;
+}
+
+/* STYLE FOR BUTTON */
+button,
+button:hover,
+button:focus{
+	outline:0;
+}
+
+button.button::-moz-focus-inner 
+{
+	padding:0;
+	border:0;}
+
+button.button 
+{
+	-webkit-border-fit:lines;
+} 
+
+button.button, 
+a.button 
+{
+	overflow:visible;
+	width:auto; 
+	border:0; 
+	padding:0; 
+	margin:0; 
+	background:transparent; 
+	cursor:pointer;
+	font-size:14px;
+	font-weight:bold;
+	color:#505050;
+	height:41px;
+	line-height:41px;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(233,233,233,1) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(62%,rgba(255,255,255,1)), color-stop(100%,rgba(233,233,233,1))); 
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 62%,rgba(233,233,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 );
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus 
+{
+	-webkit-box-shadow:0 0 0 50px white inset; 
+	-webkit-text-fill-color: #333;
+}
+
+#accordion-checkout-details .accordion-inner input[type^=button],
+#accordion-checkout-details .accordion-inner form.login input.button,
+form.checkout_coupon input.button,
+body form.checkout #payment #place_order,
+input[type^=submit],
+.loading-mark-up  
+{
+	-webkit-appearance: none;
+} 
+
+a.button
+{
+	display:inline-block;
+}
+
+button.button,
+a.button,input[type^=submit],
+html .woocommerce a.button,
+html .woocommerce button.button,
+html .woocommerce input.button,
+html .woocommerce #respond input#submit, 
+.woocommerce #content input.button,
+html .woocommerce-page a.button,
+html .woocommerce-page button.button, 
+.woocommerce-page input.button,
+html .woocommerce-page #respond input#submit, 
+html .woocommerce-page #content input.button,
+html .woocommerce-page #content input.button, 
+html .woocommerce #content table.cart input.button,
+html input.button 
+{
+	position:relative;
+	top:auto;
+	bottom:auto;
+	right:auto;
+	left:auto;
+	display:inline-block;
+	padding:0 20px;
+	line-height:38px;
+	height:40px;
+	border-width:1px 1px 2px;
+	border-style:solid;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:none;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	transition:all 0.2s ease-in-out 0s;
+	-moz-transition:all 0.2s ease-in-out 0s;
+	-webkit-transition:all 0.2s ease-in-out 0s;
+}
+
+button.button:hover,
+a.button,
+input[type^=submit]:hover,
+html .woocommerce a.button:hover,
+html .woocommerce button.button:hover,
+html .woocommerce input.button:hover,
+html .woocommerce #respond input#submit:hover, 
+.woocommerce #content input.button:hover,
+html .woocommerce-page a.button:hover,
+html .woocommerce-page button.button:hover, 
+.woocommerce-page input.button:hover,
+html .woocommerce-page #respond input#submit:hover,
+html .woocommerce-page #content input.button:hover ,
+html input.button:hover
+{
+	color:#505050;
+	text-shadow:none;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+}
+
+/* OTHER */
+.clear 
+{
+	clear:both;
+	min-height:1px;
+	width:100%;
+	clear:both;
+}
+
+.clearboth 
+{
+	clear:both;
+}
+
+.clearleft 
+{
+	clear:left;
+}
+
+.noimage
+{
+	margin-left:0;
+}
+
+.alignleft 
+{
+	float:left!important;
+	margin:0 20px 10px 0!important;
+	max-width:100%;
+	height:auto;
+}
+
+.alignright
+{
+	float:right;
+	margin:0 0 20px 10px!important;
+	max-width:100%;
+	height:auto;
+}
+
+.aligncenter 
+{
+	display:block;
+	margin:0 auto 20px;
+	max-width:100%;
+	height:auto;
+}
+
+body .woocommerce .star-rating:before,
+body .woocommerce-page .star-rating:before,
+body .woocommerce .star-rating span:before,
+body .woocommerce-page .star-rating span:before 
+{
+	font-size:12px;
+}
+
+iframe 
+{
+	max-width:100%
+}
+
+iframe html 
+{
+	position:relative;
+	z-index:1;
+}
+
+.mapp-layout 
+{
+	max-width:100%;
+}
+
+html .woocommerce form .form-row input.input-text,
+html .woocommerce-page form .form-row input.input-text 
+{
+	line-height:16px;
+	padding:0 10px;
+	max-width:535px;
+}
+
+html.ie8 .woocommerce form .form-row input.input-text,
+html.ie8 .woocommerce-page form .form-row input.input-text {
+	padding-top:5px;
+}
+
+/* ==================== Fix Bug Lag on Mac ==================================== */
+
+#wpadminbar,
+#em_quickshop_handler,
+html .woocommerce ul.products li.product div.product_label, 
+htlm .woocommerce-page ul.products li.product div.product_label,
+#main-module-container ul li.product .product_thumbnail_wrapper > a[href^="http"], 
+.woocommerce .featured_product_slider_wrapper ul.products li.product .product_thumbnail_wrapper > a[href^="http"]
+{
+	-webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+}
+
+/* =================== Cursor default on Slider ================================ */
+
+.caroufredsel_wrapper,
+.caroufredsel_wrapper > ul {cursor:default;}
+
+/* =================== Style for Search on Admin Bar ========================== */
+
+html #wpadminbar #adminbarsearch:before {top:0;}

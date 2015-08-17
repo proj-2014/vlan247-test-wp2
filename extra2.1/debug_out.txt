@@ -1,0 +1,48 @@
+-----------hrer is itmedata init fun
+-----------hello debug
+-----------hello debug
+-----------hello debug
+-----------hello debug
+-----------hello debug
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------test arg1 is: 111
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"phid":"1fc0f2ab"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"phid":"4cac550a"},{"phid":"1ba14af6"},{"phid":"0cd9ab81"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"phid":"4cac550a"},{"phid":"1ba14af6"},{"phid":"0cd9ab81"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"phid":"4cac550a"},{"phid":"1ba14af6"},{"phid":"0cd9ab81"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"id":"3381","phid":"4cac550a","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/4cac550a_zps8g7yjtm4.jpg"},{"id":"3391","phid":"1ba14af6","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/1ba14af6_zpsmjnq9d3s.jpg"},{"id":"3401","phid":"0cd9ab81","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/0cd9ab81_zpsmnycvtds.jpg"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"id":"3381","phid":"4cac550a","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/4cac550a_zps8g7yjtm4.jpg"},{"id":"3391","phid":"1ba14af6","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/1ba14af6_zpsmjnq9d3s.jpg"},{"id":"3401","phid":"0cd9ab81","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/0cd9ab81_zpsmnycvtds.jpg"}]
+-----------hello debug
+-----------{"a":1,"b":2}
+-----------{"arg1":"111","arg2":"112","arg3":"113","arg4":"114"}
+-----------test arg1 is: 111
+-----------[{"id":"3381","phid":"4cac550a","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/4cac550a_zps8g7yjtm4.jpg"},{"id":"3391","phid":"1ba14af6","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/1ba14af6_zpsmjnq9d3s.jpg"},{"id":"3401","phid":"0cd9ab81","remote":"http:\/\/i723.photobucket.com\/albums\/ww234\/webtest137\/jd-test-milk-20150813-328\/.highres\/0cd9ab81_zpsmnycvtds.jpg"}]

@@ -1,0 +1,2715 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Frontend\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-25 17:50+0600\n"
+"PO-Revision-Date: 2014-10-21 16:43+0800\n"
+"Last-Translator: Tareq Hasan <tareq@wedevs.com>\n"
+"Language-Team: Tareq Hasan <tareq@wedevs.com>\n"
+"Language: en_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wpuf-functions.php:27
+msgid "Live"
+msgstr "在线"
+
+#: ../wpuf-functions.php:31
+msgid "Offline"
+msgstr "离线"
+
+#: ../wpuf-functions.php:35
+msgid "Awaiting Approval"
+msgstr "正在等待批准"
+
+#: ../wpuf-functions.php:38 ../wpuf-functions.php:72
+msgid "Scheduled"
+msgstr "预定"
+
+#: ../wpuf-functions.php:42
+msgid "Private"
+msgstr "私人"
+
+#: ../wpuf-functions.php:61
+msgid "Published"
+msgstr "已发布"
+
+#: ../wpuf-functions.php:65
+msgid "Draft"
+msgstr "草稿"
+
+#: ../wpuf-functions.php:69
+msgid "Pending"
+msgstr "Pending"
+
+#: ../wpuf-functions.php:205
+msgid "-- select --"
+msgstr "-- 选择--"
+
+#: ../wpuf-functions.php:392
+msgid "Images"
+msgstr "图像"
+
+#: ../wpuf-functions.php:393
+msgid "Audio"
+msgstr "音频"
+
+#: ../wpuf-functions.php:394
+msgid "Videos"
+msgstr "视频"
+
+#: ../wpuf-functions.php:395
+msgid "PDF"
+msgstr "PDF"
+
+#: ../wpuf-functions.php:396
+msgid "Office Documents"
+msgstr "办公文档"
+
+#: ../wpuf-functions.php:397
+msgid "Zip Archives"
+msgstr "Zip 压缩包"
+
+#: ../wpuf-functions.php:398
+msgid "Executable Files"
+msgstr "可执行文件"
+
+#: ../wpuf-functions.php:399
+msgid "CSV"
+msgstr "CSV"
+
+#: ../wpuf-functions.php:908
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: ../wpuf.php:226
+msgid "Please fix the errors to proceed"
+msgstr "请修正错误继续下去"
+
+#: ../wpuf.php:231 ../admin/posting.php:38 ../class/render-form.php:924
+msgid "Are you sure?"
+msgstr "你确定？"
+
+#: ../wpuf.php:237 ../admin/posting.php:44 ../admin/template.php:656
+msgid "Allowed Files"
+msgstr "允许上传的文件"
+
+#: ../wpuf.php:261
+msgid ""
+"Access Denied. Your site administrator has blocked your access to the "
+"WordPress back-office."
+msgstr "访问被拒绝。您的网站管理员已阻止您访问WordPress的后台。"
+
+#: ../admin/add-ons.php:3
+msgid "WP User Frontend Pro add-ons"
+msgstr "WP用户前端化add-ons"
+
+#: ../admin/coupon.php:1
+msgid "Fixed Price"
+msgstr "定价"
+
+#: ../admin/coupon.php:1
+msgid "Percentage"
+msgstr "百分比"
+
+#: ../admin/coupon.php:1
+msgid "&infin;"
+msgstr "&infin;"
+
+#: ../admin/coupon.php:1
+msgid "Coupon Code"
+msgstr "优惠码"
+
+#: ../admin/coupon.php:1
+msgid "Coupon Type"
+msgstr "优惠券类型"
+
+#: ../admin/coupon.php:1 ../admin/subscription.php:116
+msgid "Amount"
+msgstr "总数"
+
+#: ../admin/coupon.php:1
+msgid "Usage / Limit"
+msgstr "使用/ 禁止"
+
+#: ../admin/coupon.php:1
+msgid "Expire date"
+msgstr "有效期"
+
+#: ../admin/coupon.php:1
+msgid "Coupon updated."
+msgstr "更新."
+
+#: ../admin/coupon.php:1 ../admin/form.php:229
+msgid "Custom field updated."
+msgstr "自定义字段更新。"
+
+#: ../admin/coupon.php:1 ../admin/form.php:230
+msgid "Custom field deleted."
+msgstr "自定义字段删除."
+
+#: ../admin/coupon.php:1
+#, php-format
+msgid "Coupon restored to revision from %s"
+msgstr "信息已从 %s版本中恢复"
+
+#: ../admin/coupon.php:1
+msgid "Coupon published."
+msgstr "发布优惠券。"
+
+#: ../admin/coupon.php:1
+msgid "Coupon saved."
+msgstr "保存"
+
+#: ../admin/coupon.php:1
+msgid "Coupon submitted."
+msgstr "信息以提交"
+
+#: ../admin/coupon.php:1
+msgid "Coupon draft updated."
+msgstr "信息更新方案"
+
+#: ../admin/coupon.php:1
+msgid "Enter coupon code"
+msgstr "输入优惠券代码 "
+
+#: ../admin/coupon.php:1
+msgid "Coupon"
+msgstr "优惠券 "
+
+#: ../admin/coupon.php:1
+msgid "Add Coupon"
+msgstr "添加优惠券"
+
+#: ../admin/coupon.php:1
+msgid "Add New Coupon"
+msgstr "添加新的优惠券"
+
+#: ../admin/coupon.php:1 ../admin/form.php:162 ../admin/form.php:200
+#: ../admin/subscription.php:172 ../class/subscription.php:296
+#: ../templates/dashboard.php:100
+msgid "Edit"
+msgstr "编辑 "
+
+#: ../admin/coupon.php:1
+msgid "Edit Coupon"
+msgstr "编辑优惠券"
+
+#: ../admin/coupon.php:1
+msgid "New Coupon"
+msgstr "新的优惠券"
+
+#: ../admin/coupon.php:1
+msgid "View Coupon"
+msgstr "查看优惠券"
+
+#: ../admin/coupon.php:1
+msgid "Search Coupon"
+msgstr "搜索优惠券"
+
+#: ../admin/coupon.php:1
+msgid "No Coupon Found"
+msgstr "没有发现优惠券"
+
+#: ../admin/coupon.php:1
+msgid "No Coupon Found in Trash"
+msgstr "没有找到优惠券"
+
+#: ../admin/coupon.php:1
+msgid "Parent Coupon"
+msgstr "Parent Coupon"
+
+#: ../admin/coupon.php:1
+msgid "Coupon Details"
+msgstr "优惠券的细节"
+
+#: ../admin/coupon.php:1 ../admin/template-post.php:154
+#: ../admin/transaction.php:103 ../admin/transaction.php:175
+msgid "Type"
+msgstr "类型"
+
+#: ../admin/coupon.php:1
+msgid "Percentage)"
+msgstr "百分比)"
+
+#: ../admin/coupon.php:1
+msgid "Amount without <code>%</code> or currency symbol"
+msgstr "没有<code>%</code> 足够货币"
+
+#: ../admin/coupon.php:1 ../admin/subscription.php:151
+#: ../admin/template.php:862
+msgid "Description"
+msgstr "描述"
+
+#: ../admin/coupon.php:1
+msgid "Give a description of this coupon"
+msgstr "描述"
+
+#: ../admin/coupon.php:1
+msgid "Package"
+msgstr "包"
+
+#: ../admin/coupon.php:1
+msgid "Select one or more packages to apply coupon"
+msgstr "选择一个或多个包申请优惠券"
+
+#: ../admin/coupon.php:1
+msgid "Usage Limit"
+msgstr "使用限制"
+
+#: ../admin/coupon.php:1
+msgid "How many times the coupon can be used? Give a numeric value."
+msgstr "优惠券可以使用多少次"
+
+#: ../admin/coupon.php:1 ../admin/subscription.php:153
+msgid "Validity"
+msgstr "有效 "
+
+#: ../admin/coupon.php:1
+msgid "Start date"
+msgstr "开始日期"
+
+#: ../admin/coupon.php:1
+msgid "End date"
+msgstr "结束日期"
+
+#: ../admin/coupon.php:1
+msgid "Email Restriction"
+msgstr "Email 限制"
+
+#: ../admin/coupon.php:1
+msgid ""
+"Only users with these email addresses will be able to use this coupon. Enter "
+"Email addresses. One per each line."
+msgstr "输入邮箱才可以使用优惠券"
+
+#: ../admin/coupon.php:1
+msgid "All package"
+msgstr "所有包"
+
+#: ../admin/form.php:137 ../admin/form.php:157 ../admin/form.php:159
+#: ../admin/form.php:195
+msgid "Forms"
+msgstr "表单 "
+
+#: ../admin/form.php:158 ../admin/form.php:196
+msgid "Form"
+msgstr "表单"
+
+#: ../admin/form.php:160 ../admin/form.php:198
+msgid "Add Form"
+msgstr "添加表单"
+
+#: ../admin/form.php:161 ../admin/form.php:199
+msgid "Add New Form"
+msgstr "添加新表单"
+
+#: ../admin/form.php:163 ../admin/form.php:201
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#: ../admin/form.php:164 ../admin/form.php:202
+msgid "New Form"
+msgstr "新表单"
+
+#: ../admin/form.php:165 ../admin/form.php:166 ../admin/form.php:203
+#: ../admin/form.php:204
+msgid "View Form"
+msgstr "查看表单"
+
+#: ../admin/form.php:167 ../admin/form.php:205
+msgid "Search Form"
+msgstr "搜索表单"
+
+#: ../admin/form.php:168 ../admin/form.php:206
+msgid "No Form Found"
+msgstr "没找到表单"
+
+#: ../admin/form.php:169 ../admin/form.php:207
+msgid "No Form Found in Trash"
+msgstr "回收站里没有表单"
+
+#: ../admin/form.php:170 ../admin/form.php:208
+msgid "Parent Form"
+msgstr "父表单"
+
+#: ../admin/form.php:175
+msgid "Registraton Forms"
+msgstr "Registraton Forms"
+
+#: ../admin/form.php:197 ../class/settings.php:54
+msgid "Registration Forms"
+msgstr "Registraton Forms"
+
+#: ../admin/form.php:228 ../admin/form.php:231
+msgid "Form updated."
+msgstr "表单已更新"
+
+#: ../admin/form.php:232
+#, php-format
+msgid "Form restored to revision from %s"
+msgstr "Form restored to revision from %s"
+
+#: ../admin/form.php:233
+msgid "Form published."
+msgstr "表单已发布"
+
+#: ../admin/form.php:234
+msgid "Form saved."
+msgstr "表单已保存。"
+
+#: ../admin/form.php:235
+msgid "Form submitted."
+msgstr "表单已提交"
+
+#: ../admin/form.php:237
+msgid "Form draft updated."
+msgstr "表单草稿已更新"
+
+#: ../admin/form.php:267 ../admin/form.php:286
+msgid "Form Name"
+msgstr "Form Name"
+
+#: ../admin/form.php:268 ../admin/form.php:599
+msgid "Post Type"
+msgstr "文章类型"
+
+#: ../admin/form.php:269 ../admin/form.php:619
+msgid "Post Status"
+msgstr "文章状态"
+
+#: ../admin/form.php:270 ../admin/form.php:669
+msgid "Guest Post"
+msgstr "访客文章"
+
+#: ../admin/form.php:271 ../admin/form.php:288
+msgid "Shortcode"
+msgstr "简码"
+
+#: ../admin/form.php:287
+msgid "User Role"
+msgstr "用户角色"
+
+#: ../admin/form.php:320 ../admin/settings-options.php:86
+#: ../admin/settings-options.php:153 ../admin/settings-options.php:164
+#: ../admin/settings-options.php:246 ../admin/subscription.php:92
+#: ../admin/template.php:73 ../admin/template.php:283
+msgid "No"
+msgstr "No"
+
+#: ../admin/form.php:320 ../admin/settings-options.php:85
+#: ../admin/settings-options.php:152 ../admin/settings-options.php:163
+#: ../admin/settings-options.php:245 ../admin/subscription.php:90
+#: ../admin/template.php:72 ../admin/template.php:282
+msgid "Yes"
+msgstr "Yes"
+
+#: ../admin/form.php:366
+msgid "Duplicate form"
+msgstr "复制表单"
+
+#: ../admin/form.php:366
+msgid "Duplicate"
+msgstr "复制"
+
+#: ../admin/form.php:425
+msgid "WPUF Form"
+msgstr "WPUF 表单"
+
+#: ../admin/form.php:435 ../admin/form.php:445 ../admin/form.php:1168
+#: ../admin/form.php:1203
+msgid "Form Editor"
+msgstr "表单编辑器"
+
+#: ../admin/form.php:436 ../admin/form.php:446
+msgid "Form Elements"
+msgstr "表单元素"
+
+#: ../admin/form.php:466
+msgid "Preview Form"
+msgstr "预览表单"
+
+#: ../admin/form.php:475 ../admin/form.php:476
+msgid "Schedule"
+msgstr "日程"
+
+#: ../admin/form.php:478 ../admin/form.php:479
+msgid "Publish"
+msgstr "发布"
+
+#: ../admin/form.php:483 ../admin/form.php:484
+msgid "Submit for Review"
+msgstr "提交评论"
+
+#: ../admin/form.php:489 ../admin/form.php:490 ../admin/form.php:823
+msgid "Update"
+msgstr "更新"
+
+#: ../admin/form.php:559
+msgid "This page is restricted. Please Log in / Register to view this page."
+msgstr "本文访问受限。请登录/注册以查看本文。"
+
+#: ../admin/form.php:568 ../admin/subscription.php:150
+#: ../admin/template-post.php:167 ../class/edit-profile.php:96
+msgid "Name"
+msgstr "姓名"
+
+#: ../admin/form.php:569 ../admin/form.php:1238 ../admin/transaction.php:102
+msgid "Email"
+msgstr "Email"
+
+#: ../admin/form.php:573
+msgid "Post saved"
+msgstr "文章已保存"
+
+#: ../admin/form.php:574 ../admin/form.php:820
+msgid "Post updated successfully"
+msgstr "文章已更新成功"
+
+#: ../admin/form.php:579
+msgid "Submit"
+msgstr "提交"
+
+#: ../admin/form.php:580 ../class/render-form.php:539
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: ../admin/form.php:581
+msgid "Preview"
+msgstr "预览"
+
+#: ../admin/form.php:589
+msgid "Disabled Subscription"
+msgstr "禁用订阅"
+
+#: ../admin/form.php:593
+msgid "Disabled subscription"
+msgstr "禁用订阅"
+
+#: ../admin/form.php:634
+msgid "Post Format"
+msgstr "文章形式 "
+
+#: ../admin/form.php:637 ../admin/form.php:661
+msgid "- None -"
+msgstr "- None -"
+
+#: ../admin/form.php:653
+msgid "Default Post Category"
+msgstr "默认分类"
+
+#: ../admin/form.php:664
+msgid ""
+"If users are not allowed to choose any category, this category will be used "
+"instead (if post type supports)"
+msgstr "如果用户被不允许选择分类，将使用这个分类"
+
+#: ../admin/form.php:674
+msgid "Enable Guest Post"
+msgstr "启用访客发文章"
+
+#: ../admin/form.php:676
+msgid "Unregistered users will be able to submit posts"
+msgstr "未注册用户将可以提交文章"
+
+#: ../admin/form.php:681
+msgid "User Details"
+msgstr "用户详情"
+
+#: ../admin/form.php:686
+msgid "Require Name and Email address"
+msgstr "需要名称和Email 地址"
+
+#: ../admin/form.php:688
+msgid ""
+"If requires, users will be automatically registered to the site using the "
+"name and email address"
+msgstr "如果需要，用户将使用这个用户名和email注册为网站用户。"
+
+#: ../admin/form.php:693
+msgid "Name Label"
+msgstr "姓名标签 "
+
+#: ../admin/form.php:698
+msgid "Label text for name field"
+msgstr "email 字段的标签文字"
+
+#: ../admin/form.php:703
+msgid "E-Mail Label"
+msgstr "E-Mail 标签"
+
+#: ../admin/form.php:708
+msgid "Label text for email field"
+msgstr "email 字段的标签文字"
+
+#: ../admin/form.php:713 ../admin/settings-options.php:209
+msgid "Unauthorized Message"
+msgstr "未经授权的信息"
+
+#: ../admin/form.php:716 ../admin/settings-options.php:210
+msgid "Not logged in users will see this message"
+msgstr "没有登录用户将看到这个消息"
+
+#: ../admin/form.php:721 ../admin/form.php:846 ../admin/form.php:1089
+msgid "Redirect To"
+msgstr "重定向到 "
+
+#: ../admin/form.php:726 ../admin/form.php:851
+msgid "Newly created post"
+msgstr "创建新文章"
+
+#: ../admin/form.php:727 ../admin/form.php:852 ../admin/form.php:1094
+msgid "Same Page"
+msgstr "同一页"
+
+#: ../admin/form.php:728 ../admin/form.php:853 ../admin/form.php:1095
+msgid "To a page"
+msgstr "到一个页面"
+
+#: ../admin/form.php:729 ../admin/form.php:854 ../admin/form.php:1096
+msgid "To a custom URL"
+msgstr "到一个自定义URL"
+
+#: ../admin/form.php:738 ../admin/form.php:863 ../admin/form.php:1105
+msgid "After successfull submit, where the page will redirect to"
+msgstr "提交成功以后，页面将重定向到"
+
+#: ../admin/form.php:744
+msgid "Message to show"
+msgstr "信息显示"
+
+#: ../admin/form.php:752 ../admin/form.php:876 ../admin/form.php:1125
+msgid "Page"
+msgstr "页面"
+
+#: ../admin/form.php:767 ../admin/form.php:891 ../admin/form.php:1140
+msgid "Custom URL"
+msgstr "自定义URL"
+
+#: ../admin/form.php:774
+msgid "Comment Status"
+msgstr "评论状态"
+
+#: ../admin/form.php:777
+msgid "Open"
+msgstr "打开"
+
+#: ../admin/form.php:778
+msgid "Closed"
+msgstr "关闭"
+
+#: ../admin/form.php:784
+msgid "Submit Post Button text"
+msgstr "提交文章按钮文字"
+
+#: ../admin/form.php:791
+msgid "Post Draft"
+msgstr "文章草稿"
+
+#: ../admin/form.php:796
+msgid "Enable Saving as draft"
+msgstr "启用保存为草稿"
+
+#: ../admin/form.php:798
+msgid "It will show a button to save as draft"
+msgstr "会显示一个保存为草稿按钮"
+
+#: ../admin/form.php:829
+msgid "Set Post Status to"
+msgstr "设置文章状态到"
+
+#: ../admin/form.php:839
+msgid "No Change"
+msgstr "未改变"
+
+#: ../admin/form.php:869
+msgid "Post Update Message"
+msgstr "文章更新信息"
+
+#: ../admin/form.php:900
+msgid "Subscription Title"
+msgstr "订阅标题"
+
+#: ../admin/form.php:909
+msgid "Update Post Button text"
+msgstr "更新文章按钮文字"
+
+#: ../admin/form.php:960
+msgid "New post created"
+msgstr "新文章已创建"
+
+#: ../admin/form.php:965
+msgid "A post has been edited"
+msgstr "一个文章已被编辑"
+
+#: ../admin/form.php:969
+msgid "New Post Notificatoin"
+msgstr "新文章通知"
+
+#: ../admin/form.php:973 ../admin/form.php:1007 ../admin/form.php:1171
+msgid "Notification"
+msgstr "通知"
+
+#: ../admin/form.php:978 ../admin/form.php:1012
+msgid "Enable post notification"
+msgstr "启用文章通知"
+
+#: ../admin/form.php:984 ../admin/form.php:1018
+msgid "To"
+msgstr "到"
+
+#: ../admin/form.php:991 ../admin/form.php:1023
+msgid "Subject"
+msgstr "项目"
+
+#: ../admin/form.php:996 ../admin/form.php:1028
+msgid "Message"
+msgstr "信息"
+
+#: ../admin/form.php:1003
+msgid "Update Post Notificatoin"
+msgstr "更新文章通知"
+
+#: ../admin/form.php:1035
+msgid "You may use in message:"
+msgstr "你可以使用信息："
+
+#: ../admin/form.php:1058
+msgid "Registration successful"
+msgstr "注册成功"
+
+#: ../admin/form.php:1059
+msgid "Profile updated successfully"
+msgstr "个人信息更新成功"
+
+#: ../admin/form.php:1062 ../class/login.php:207
+msgid "Register"
+msgstr "注册"
+
+#: ../admin/form.php:1063 ../class/edit-profile.php:225
+msgid "Update Profile"
+msgstr "更新个人资料"
+
+#: ../admin/form.php:1068
+msgid "Enable Email Verfication"
+msgstr "启用邮箱验证"
+
+#: ../admin/form.php:1075
+msgid "New User Role"
+msgstr "新角色"
+
+#: ../admin/form.php:1111
+msgid "Registration success message"
+msgstr "注册成功信息"
+
+#: ../admin/form.php:1118
+msgid "Update profile message"
+msgstr "更新简介信息"
+
+#: ../admin/form.php:1147
+msgid "Submit Button text"
+msgstr "提交按钮文字"
+
+#: ../admin/form.php:1154
+msgid "Update Button text"
+msgstr "更新按钮文字"
+
+#: ../admin/form.php:1169
+msgid "Post Settings"
+msgstr "文章设置"
+
+#: ../admin/form.php:1170
+msgid "Edit Settings"
+msgstr "编辑设置"
+
+#: ../admin/form.php:1204 ../class/settings.php:62
+msgid "Settings"
+msgstr "设置"
+
+#: ../admin/form.php:1224 ../admin/form.php:1273 ../admin/form.php:1274
+#: ../admin/form.php:1275 ../admin/form.php:1276 ../admin/form.php:1277
+#: ../admin/form.php:1278 ../admin/form.php:1291
+msgid "Click to add to the editor"
+msgstr "勾选添加到编辑器"
+
+#: ../admin/form.php:1226
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: ../admin/form.php:1228
+msgid "Text"
+msgstr "文字"
+
+#: ../admin/form.php:1229 ../admin/template.php:186
+msgid "Textarea"
+msgstr "文字区域"
+
+#: ../admin/form.php:1230 ../admin/template-post.php:156
+msgid "Dropdown"
+msgstr "下拉"
+
+#: ../admin/form.php:1231 ../admin/transaction.php:178
+msgid "Date"
+msgstr "日期"
+
+#: ../admin/form.php:1232 ../admin/template-post.php:157
+msgid "Multi Select"
+msgstr "多选"
+
+#: ../admin/form.php:1233
+msgid "Radio"
+msgstr "单选"
+
+#: ../admin/form.php:1234 ../admin/template-post.php:158
+msgid "Checkbox"
+msgstr "复选"
+
+#: ../admin/form.php:1235
+msgid "Image Upload"
+msgstr "图片上传"
+
+#: ../admin/form.php:1236
+msgid "File Upload"
+msgstr "文件上传"
+
+#: ../admin/form.php:1237
+msgid "URL"
+msgstr "URL"
+
+#: ../admin/form.php:1239
+msgid "Repeat Field"
+msgstr "重复字段"
+
+#: ../admin/form.php:1240
+msgid "Hidden Field"
+msgstr "隐藏字段"
+
+#: ../admin/form.php:1242
+msgid "Google Maps"
+msgstr "谷歌地图"
+
+#: ../admin/form.php:1247
+msgid "Others"
+msgstr "其他"
+
+#: ../admin/form.php:1249
+msgid "reCaptcha"
+msgstr "验证码"
+
+#: ../admin/form.php:1250
+msgid "Really Simple Captcha"
+msgstr "真正简单的验证码"
+
+#: ../admin/form.php:1251
+msgid "Section Break"
+msgstr "分节符"
+
+#: ../admin/form.php:1252
+msgid "HTML"
+msgstr "HTML"
+
+#: ../admin/form.php:1253
+msgid "Action Hook"
+msgstr "动作 Hook"
+
+#: ../admin/form.php:1254
+msgid "Term &amp; Conditions"
+msgstr "协议条款"
+
+#: ../admin/form.php:1271
+msgid "Post Fields"
+msgstr "文章字段"
+
+#: ../admin/form.php:1273
+msgid "Post Title"
+msgstr "文章标题"
+
+#: ../admin/form.php:1274
+msgid "Post Body"
+msgstr "文章正文"
+
+#: ../admin/form.php:1275
+msgid "Excerpt"
+msgstr "摘录"
+
+#: ../admin/form.php:1276
+msgid "Tags"
+msgstr "表签"
+
+#: ../admin/form.php:1277
+msgid "Category"
+msgstr "分类"
+
+#: ../admin/form.php:1278 ../templates/dashboard.php:23
+msgid "Featured Image"
+msgstr "特色图像"
+
+#: ../admin/form.php:1284
+msgid "Custom Taxonomies"
+msgstr "自定义分类"
+
+#: ../admin/form.php:1295
+msgid "No custom taxonomies found"
+msgstr "没有找到自定义分类"
+
+#: ../admin/form.php:1316
+msgid "Profile Fields"
+msgstr "简介字段"
+
+#: ../admin/form.php:1318 ../admin/form.php:1782 ../class/edit-profile.php:100
+#: ../templates/login-form.php:14
+msgid "Username"
+msgstr "用户名"
+
+#: ../admin/form.php:1319 ../admin/form.php:1786 ../class/edit-profile.php:104
+msgid "First Name"
+msgstr "姓"
+
+#: ../admin/form.php:1320 ../admin/form.php:1790 ../class/edit-profile.php:109
+msgid "Last Name"
+msgstr "名"
+
+#: ../admin/form.php:1321 ../admin/form.php:1794 ../class/edit-profile.php:114
+msgid "Nickname"
+msgstr "昵称"
+
+#: ../admin/form.php:1322 ../admin/form.php:1798 ../class/edit-profile.php:155
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../admin/form.php:1323 ../admin/form.php:1802 ../class/edit-profile.php:160
+msgid "Website"
+msgstr "网址"
+
+#: ../admin/form.php:1324 ../admin/form.php:1806 ../class/edit-profile.php:182
+msgid "Biographical Info"
+msgstr "简历信息"
+
+#: ../admin/form.php:1325 ../admin/form.php:1810
+#: ../templates/login-form.php:18
+msgid "Password"
+msgstr "密码"
+
+#: ../admin/form.php:1326 ../admin/form.php:1814
+msgid "Avatar"
+msgstr "头像"
+
+#: ../admin/form.php:1482 ../admin/form.php:1634
+msgid "Toggle All"
+msgstr "展开/收起全部"
+
+#: ../admin/form.php:1486 ../admin/form.php:1638
+msgid "Click on a form element to add to the editor"
+msgstr "单击一个表单元素以添加到编辑器"
+
+#: ../admin/import-export.php:32
+msgid "Form Export"
+msgstr "Form 导出"
+
+#: ../admin/import-export.php:38 ../admin/import-export.php:94
+msgid "All"
+msgstr "全部"
+
+#: ../admin/import-export.php:43 ../admin/import-export.php:99
+msgid "Select individual"
+msgstr "选择个人"
+
+#: ../admin/import-export.php:53 ../admin/import-export.php:112
+#: ../admin/import-export.php:359
+msgid "Export"
+msgstr "导出"
+
+#: ../admin/import-export.php:61 ../admin/import-export.php:119
+msgid "Sorry you have no form to export"
+msgstr "Sorry，没有导出"
+
+#: ../admin/import-export.php:86
+msgid "Registration Form Export"
+msgstr "注册表单导出"
+
+#: ../admin/import-export.php:132
+msgid "Somthing went wrong. Please choose a file again"
+msgstr "出错了，请重新选择"
+
+#: ../admin/import-export.php:144
+msgid "Import successful. Have fun!"
+msgstr "成功"
+
+#: ../admin/import-export.php:147
+msgid "Invalid file or file size too big."
+msgstr "无效的文件或文件大小太大。"
+
+#: ../admin/import-export.php:153
+msgid "Import forms"
+msgstr "倒入表单"
+
+#: ../admin/import-export.php:155
+msgid "Click Browse button and choose a json file that you backup before."
+msgstr "单击Browse按钮并选择你之前备份的json文件。"
+
+#: ../admin/import-export.php:156
+msgid "Press Restore button, WordPress does the rest for you."
+msgstr "按恢复按钮,WordPress does the rest for you."
+
+#: ../admin/import-export.php:161 ../admin/import-export.php:358
+msgid "Import"
+msgstr "导出"
+
+#: ../admin/import-export.php:215 ../admin/import-export.php:235
+msgid "Please select some form for exporting"
+msgstr "请选择倒入形式"
+
+#: ../admin/import-export.php:317 ../admin/import-export.php:321
+msgid "Reset Settings"
+msgstr "重新设置"
+
+#: ../admin/import-export.php:320
+msgid ""
+"<strong>Caution:</strong> This tool will delete all the plugin settings of "
+"WP User Frontend Pro"
+msgstr "<strong>警告:</strong> 此工具将删除所有WP用户前端Pro的设置"
+
+#: ../admin/import-export.php:326
+msgid "Delete Forms"
+msgstr "删除表单"
+
+#: ../admin/import-export.php:329
+msgid ""
+"<strong>Caution:</strong> This tool will delete all the post and "
+"registration/profile forms."
+msgstr "<strong>警告 :</strong>这个工具将删除所有文章和登记/profile forms."
+
+#: ../admin/import-export.php:331
+msgid "Delete Post Forms"
+msgstr "删除文章"
+
+#: ../admin/import-export.php:332
+msgid "Delete Registration Forms"
+msgstr "删除注册表单"
+
+#: ../admin/import-export.php:337
+msgid "Transactions"
+msgstr "Transactions"
+
+#: ../admin/import-export.php:340
+msgid "This tool will delete all the transactions from the transaction table."
+msgstr "这个工具将会删除所有的交易事务表"
+
+#: ../admin/import-export.php:342
+msgid "Delete Transaction"
+msgstr "删除账目 "
+
+#: ../admin/import-export.php:360 ../class/settings.php:61
+msgid "Tools"
+msgstr "工具 "
+
+#: ../admin/posting-profile.php:103 ../class/edit-profile.php:244
+msgid "WPUF Post Lock"
+msgstr "WPUF 文章加密"
+
+#: ../admin/posting-profile.php:106 ../class/edit-profile.php:247
+msgid "Lock Post:"
+msgstr "加密文章："
+
+#: ../admin/posting-profile.php:112 ../class/edit-profile.php:253
+msgid "Lock user from creating new post."
+msgstr "加密从用户表单创建的新文章"
+
+#: ../admin/posting-profile.php:117 ../class/edit-profile.php:258
+msgid "Lock Reason:"
+msgstr "加密原因："
+
+#: ../admin/posting.php:55
+msgid "WPUF Custom Fields"
+msgstr "WPUF 自定义字段"
+
+#: ../admin/posting.php:83
+msgid "No custom fields found."
+msgstr "没找到自定义字段。"
+
+#: ../admin/settings-options.php:13
+msgid "General Options"
+msgstr "常规选项"
+
+#: ../admin/settings-options.php:17
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: ../admin/settings-options.php:21
+msgid "Login / Registration"
+msgstr "登录/注册"
+
+#: ../admin/settings-options.php:25
+msgid "Payments"
+msgstr "支付"
+
+#: ../admin/settings-options.php:29
+msgid "Support"
+msgstr "支持"
+
+#: ../admin/settings-options.php:44
+msgid "Fixed Form Elements "
+msgstr "固定表单元素"
+
+#: ../admin/settings-options.php:45
+msgid "Show fixed form elements sidebar in form editor"
+msgstr "在表单编辑器显示固定表单元素侧边栏"
+
+#: ../admin/settings-options.php:51
+msgid "Edit Page"
+msgstr "编辑页面"
+
+#: ../admin/settings-options.php:52
+msgid "Select the page where [wpuf_edit] is located"
+msgstr "选择 [wpuf_edit] 所在的页面"
+
+#: ../admin/settings-options.php:58
+msgid "Default Post Owner"
+msgstr "默认文章作者"
+
+#: ../admin/settings-options.php:59
+msgid ""
+"If guest post is enabled and user details are OFF, the posts are assigned to "
+"this user"
+msgstr "如果访客发表文章是开启并且用户详情是关闭，本文指派给这个用户"
+
+#: ../admin/settings-options.php:66
+msgid "Admin area access"
+msgstr "管理区域访问"
+
+#: ../admin/settings-options.php:67
+msgid "Allow you to block specific user role to WordPress admin area."
+msgstr "允许你阻止特定的用户角色访问WordPress管理区域。"
+
+#: ../admin/settings-options.php:71
+msgid "Admin Only"
+msgstr "仅管理员"
+
+#: ../admin/settings-options.php:72
+msgid "Admins, Editors"
+msgstr "管理员，编辑者"
+
+#: ../admin/settings-options.php:73
+msgid "Admins, Editors, Authors"
+msgstr "管理员，编辑者，作者"
+
+#: ../admin/settings-options.php:74
+msgid "Admins, Editors, Authors, Contributors"
+msgstr "管理员，编辑者，作者，投稿者"
+
+#: ../admin/settings-options.php:75
+msgid "Default"
+msgstr "默认"
+
+#: ../admin/settings-options.php:80
+msgid "Override the post edit link"
+msgstr "重写文章编辑链接"
+
+#: ../admin/settings-options.php:81
+msgid ""
+"Users see the edit link in post if s/he is capable to edit the post/page. "
+"Selecting <strong>Yes</strong> will override the default WordPress edit post "
+"link in frontend"
+msgstr ""
+"如果用户可以编辑文章/页面则他可以看到文章编辑链接. 选择 <strong>是</strong> "
+"将在前端重写链接地址"
+
+#: ../admin/settings-options.php:91
+msgid "Custom Fields in post"
+msgstr "文章自定义字段"
+
+#: ../admin/settings-options.php:92
+msgid "Show custom fields on post content area"
+msgstr "在文章内容区域显示自定义字段"
+
+#: ../admin/settings-options.php:98
+msgid "Load Scripts"
+msgstr "加载代码"
+
+#: ../admin/settings-options.php:99
+msgid "Load scripts/styles in all pages"
+msgstr "加载代码/样式到全部页面"
+
+#: ../admin/settings-options.php:105
+msgid "Insert Photo image size"
+msgstr "插入照片尺寸"
+
+#: ../admin/settings-options.php:106
+msgid ""
+"Default image size of \"<strong>Insert Photo</strong>\" button in post "
+"content area"
+msgstr "默认图像尺寸 \"<strong>插入图像</strong>\" 按钮在文章内容区域"
+
+#: ../admin/settings-options.php:113
+msgid "Insert Photo image type"
+msgstr "插入照片类型"
+
+#: ../admin/settings-options.php:114
+msgid ""
+"Default image type of \"<strong>Insert Photo</strong>\" button in post "
+"content area"
+msgstr "默认图像类型 \"<strong>插入图像</strong>\" 按钮在文章内容区域"
+
+#: ../admin/settings-options.php:117
+msgid "Image only"
+msgstr "仅图片"
+
+#: ../admin/settings-options.php:118
+msgid "Image with link"
+msgstr "图像链接"
+
+#: ../admin/settings-options.php:124
+msgid "Default Post Form"
+msgstr "默认文章表单"
+
+#: ../admin/settings-options.php:125
+msgid "Fallback form for post editing if no associated form found"
+msgstr "文章编辑后备表格，如果没有找到相关表格"
+
+#: ../admin/settings-options.php:131
+msgid "reCAPTCHA Public Key"
+msgstr "验证码公开密匙"
+
+#: ../admin/settings-options.php:135
+msgid "reCAPTCHA Private Key"
+msgstr "验证码私密密匙"
+
+#: ../admin/settings-options.php:139
+msgid "Custom CSS codes"
+msgstr "自定义CSS代码"
+
+#: ../admin/settings-options.php:140
+msgid ""
+"If you want to add your custom CSS code, it will be added on page header "
+"wrapped with style tag"
+msgstr "如果你想添加自定义CSS代码，它将被添加到页面页眉"
+
+#: ../admin/settings-options.php:147
+msgid "Users can edit post?"
+msgstr "用户可以编辑文章？"
+
+#: ../admin/settings-options.php:148
+msgid "Users will be able to edit their own posts"
+msgstr "用户将可以编辑他们的文章"
+
+#: ../admin/settings-options.php:158
+msgid "User can delete post?"
+msgstr "用户可以删除文章？"
+
+#: ../admin/settings-options.php:159
+msgid "Users will be able to delete their own posts"
+msgstr "用户可以删除他们自己的文章"
+
+#: ../admin/settings-options.php:169
+msgid "Pending Post Edit"
+msgstr "待发表编辑"
+
+#: ../admin/settings-options.php:170
+msgid "Disable post editing while post in \"pending\" status"
+msgstr "禁用文章编辑，如果文章是 \"等待\" 状态"
+
+#: ../admin/settings-options.php:176
+msgid "Posts per page"
+msgstr "每页文章数"
+
+#: ../admin/settings-options.php:177
+msgid "How many posts will be listed in a page"
+msgstr "多少文章将在一页被呈现"
+
+#: ../admin/settings-options.php:183
+msgid "Show user bio"
+msgstr "显示用户简介"
+
+#: ../admin/settings-options.php:184
+msgid "Users biographical info will be shown"
+msgstr "用户简历信息将显示"
+
+#: ../admin/settings-options.php:190
+msgid "Show post count"
+msgstr "显示文章数"
+
+#: ../admin/settings-options.php:191
+msgid "Show how many posts are created by the user"
+msgstr "显示用户创作的多少文章"
+
+#: ../admin/settings-options.php:197
+msgid "Show Featured Image"
+msgstr "显示特色图像"
+
+#: ../admin/settings-options.php:198
+msgid "Show featured image of the post"
+msgstr "显示文章特色图像"
+
+#: ../admin/settings-options.php:203
+msgid "Featured Image size"
+msgstr "特色图像尺寸"
+
+#: ../admin/settings-options.php:217
+msgid "Login/Registration override"
+msgstr "登录/注册 覆盖"
+
+#: ../admin/settings-options.php:218
+msgid ""
+"If enabled, default login and registration forms will be overridden by WPUF "
+"with pages below"
+msgstr "如果启用,默认的登录和注册表单将被WPUF覆盖，页面如下"
+
+#: ../admin/settings-options.php:224
+msgid "Registration Page"
+msgstr "注册页面 "
+
+#: ../admin/settings-options.php:225
+msgid ""
+"Select the page you want to use as registration page override <em>(should "
+"have shortcode)</em>"
+msgstr "选择你想用户用来注册的页面 <em>(应该有简码)</em>"
+
+#: ../admin/settings-options.php:231
+msgid "Login Page"
+msgstr "登陆页面"
+
+#: ../admin/settings-options.php:232
+msgid "Select the page which contains <code>[wpuf-login]</code> shortcode"
+msgstr "选择包含简码页面<code>[wpuf-login]</code> "
+
+#: ../admin/settings-options.php:240
+msgid "Charge for posting"
+msgstr "发文章收费"
+
+#: ../admin/settings-options.php:241
+msgid "Charge user for submitting a post"
+msgstr "收费用户才能提交文章"
+
+#: ../admin/settings-options.php:251
+msgid "Force pack purchase"
+msgstr "强制购买包"
+
+#: ../admin/settings-options.php:252
+msgid "When active, users must have to buy a pack for posting"
+msgstr "当激活时，用户必须得买一个包才能发布"
+
+#: ../admin/settings-options.php:256
+msgid "Disable"
+msgstr "禁用"
+
+#: ../admin/settings-options.php:257
+msgid "Enable"
+msgstr "启用"
+
+#: ../admin/settings-options.php:262
+msgid "Subscription Pack Page"
+msgstr "订阅包页面"
+
+#: ../admin/settings-options.php:263
+msgid "Select the page where <code>[wpuf_sub_pack]</code> located."
+msgstr "选择<code>[wpuf_sub_pack]</code>所在的页面"
+
+#: ../admin/settings-options.php:269
+msgid "Subscription at registration"
+msgstr "注册订阅"
+
+#: ../admin/settings-options.php:270
+msgid "Registration time redirect to subscription page"
+msgstr "注册时间重定向到订阅页面"
+
+#: ../admin/settings-options.php:275
+msgid "Currency"
+msgstr "货币"
+
+#: ../admin/settings-options.php:307
+msgid "Currency Symbol"
+msgstr "货币符号"
+
+#: ../admin/settings-options.php:313 ../admin/subscription.php:152
+#: ../admin/transaction.php:98 ../admin/transaction.php:176
+msgid "Cost"
+msgstr "费用"
+
+#: ../admin/settings-options.php:314
+msgid "Cost per post"
+msgstr "每文费用"
+
+#: ../admin/settings-options.php:320
+msgid "Enable demo/sandbox mode"
+msgstr "启用演示/沙盒模式"
+
+#: ../admin/settings-options.php:321
+msgid ""
+"When sandbox mode is active, all payment gateway will be used in demo mode"
+msgstr "当沙盒模式激活，全部支付方式将用于演示模式"
+
+#: ../admin/settings-options.php:327
+msgid "Payment Page"
+msgstr "付款页面"
+
+#: ../admin/settings-options.php:328
+msgid "This page will be used to process payment options"
+msgstr "这个页面将用于付款流程选项"
+
+#: ../admin/settings-options.php:334
+msgid "Payment Success Page"
+msgstr "付款成功页面"
+
+#: ../admin/settings-options.php:335 ../lib/gateway/bank.php:37
+msgid "After payment users will be redirected here"
+msgstr "用户完成付款以后返回的页面"
+
+#: ../admin/settings-options.php:341
+msgid "Payment Gateways"
+msgstr "支付方式"
+
+#: ../admin/settings-options.php:342
+msgid "Active payment gateways"
+msgstr "激活支付方式"
+
+#: ../admin/settings-options.php:350
+msgid "Need Help?"
+msgstr "需要帮助？"
+
+#: ../admin/settings-options.php:381
+msgid ""
+"Select profile/registration forms for user roles. These forms will be used "
+"to populate extra edit profile fields in backend."
+msgstr ""
+"选择用户角色的个人资料/注册表单。这个表单将用于填写后端额外的编辑个人资料文件"
+"中的字段。"
+
+#: ../admin/settings-options.php:392
+msgid " - select - "
+msgstr " - 选择 - "
+
+#: ../admin/subscription.php:78 ../admin/subscription.php:407
+#: ../class/subscription.php:587 ../class/subscription.php:714
+#: ../class/subscription.php:725
+msgid "Free"
+msgstr "免费"
+
+#: ../admin/subscription.php:115 ../class/subscription.php:216
+msgid "Pack Name"
+msgstr "包名称"
+
+#: ../admin/subscription.php:117 ../admin/subscription.php:264
+msgid "Recurring"
+msgstr "经常"
+
+#: ../admin/subscription.php:118
+msgid "Duration"
+msgstr "持续"
+
+#: ../admin/subscription.php:141
+msgid "Pack Deleted"
+msgstr "删除包"
+
+#: ../admin/subscription.php:154
+msgid "Post Count"
+msgstr "文章总数"
+
+#: ../admin/subscription.php:155 ../admin/transaction.php:179
+msgid "Action"
+msgstr "动作"
+
+#: ../admin/subscription.php:175
+msgid "Are you sure to delete this pack?"
+msgstr "你确定要删除这个包吗?"
+
+#: ../admin/subscription.php:176 ../class/render-form.php:924
+#: ../class/upload.php:118 ../templates/dashboard.php:110
+msgid "Delete"
+msgstr "删除"
+
+#: ../admin/subscription.php:187
+msgid "No subscription pack found"
+msgstr "未发现订购包"
+
+#: ../admin/subscription.php:235
+msgid "Pack Description"
+msgstr "包描述"
+
+#: ../admin/subscription.php:242
+msgid "Billing amount:"
+msgstr "账单金额:"
+
+#: ../admin/subscription.php:243
+msgid "Billing amount each cycle:"
+msgstr "每个周期账单金额:"
+
+#: ../admin/subscription.php:251
+msgid "Expires In:"
+msgstr "到期:"
+
+#: ../admin/subscription.php:268
+msgid "Enable Recurring Payment"
+msgstr "重复付款"
+
+#: ../admin/subscription.php:274
+msgid "Billing cycle:"
+msgstr "计费周期:"
+
+#: ../admin/subscription.php:288
+msgid "Billing cycle stop"
+msgstr "计费周期停止"
+
+#: ../admin/subscription.php:291
+msgid "Never"
+msgstr "从不"
+
+#: ../admin/subscription.php:294
+msgid "After how many cycles should billing stop?"
+msgstr "多少个计费周期应该停止?"
+
+#: ../admin/subscription.php:299
+msgid "Trial"
+msgstr "试用"
+
+#: ../admin/subscription.php:303
+msgid "Enable trial period"
+msgstr "试用期"
+
+#: ../admin/subscription.php:309
+msgid "Trial amount"
+msgstr "试用数量"
+
+#: ../admin/subscription.php:312
+msgid "Amount to bill for the trial period"
+msgstr "Amount to bill for the trial period"
+
+#: ../admin/subscription.php:317
+msgid "Trial period"
+msgstr "试用期"
+
+#: ../admin/subscription.php:325
+msgid "Define the trial period"
+msgstr "规定试用期"
+
+#: ../admin/subscription.php:339
+msgid "Day(s)"
+msgstr "Day(s)"
+
+#: ../admin/subscription.php:340
+msgid "Week(s)"
+msgstr "Week(s)"
+
+#: ../admin/subscription.php:341
+msgid "Month(s)"
+msgstr "Month(s)"
+
+#: ../admin/subscription.php:342
+msgid "Year(s)"
+msgstr "Year(s)"
+
+#: ../admin/subscription.php:381 ../class/edit-profile.php:278
+msgid "WPUF Subscription"
+msgstr "WPUF 认购"
+
+#: ../admin/subscription.php:382
+msgid "Assign Package"
+msgstr "分配方案"
+
+#: ../admin/subscription.php:383
+msgid "Cancel Package"
+msgstr "取消包"
+
+#: ../admin/subscription.php:386 ../class/edit-profile.php:282
+msgid "Pack:"
+msgstr "包:"
+
+#: ../admin/subscription.php:389
+msgid "--Select--"
+msgstr "--选择--"
+
+#: ../admin/subscription.php:419 ../class/subscription.php:598
+msgid "Subscription Details"
+msgstr "订阅信息"
+
+#: ../admin/subscription.php:421 ../class/subscription.php:600
+msgid "Subcription Name: "
+msgstr "Subcription Name: "
+
+#: ../admin/subscription.php:423
+msgid "Package billign details: "
+msgstr "Package billign details: "
+
+#: ../admin/subscription.php:433 ../class/subscription.php:615
+msgid "Remain post: "
+msgstr "保留文章"
+
+#: ../admin/subscription.php:458 ../class/subscription.php:632
+msgid "Expire date:"
+msgstr "到期日期:"
+
+#: ../admin/template-post.php:41
+msgid "Enable Image Insertion"
+msgstr "允许图像插入"
+
+#: ../admin/template-post.php:47
+msgid "Enable image upload in post area"
+msgstr "启用图像发布到文章区域"
+
+#: ../admin/template-post.php:93 ../admin/template-profile.php:186
+#: ../admin/template.php:595 ../admin/template.php:634
+msgid "Enter maximum upload size limit in KB"
+msgstr "输入最大上传大小 KB"
+
+#: ../admin/template-post.php:105 ../admin/template-profile.php:198
+#: ../admin/template.php:607 ../admin/template.php:646
+msgid "Max. file size"
+msgstr "最大文件大小"
+
+#: ../admin/template-post.php:159
+msgid "Text Input"
+msgstr "文本输入"
+
+#: ../admin/template-post.php:160
+msgid "Ajax"
+msgstr "Ajax"
+
+#: ../admin/template-post.php:165
+msgid "Order By"
+msgstr "排序方式"
+
+#: ../admin/template-post.php:168
+msgid "Term ID"
+msgstr "项目ID"
+
+#: ../admin/template-post.php:169
+msgid "Slug"
+msgstr "别名"
+
+#: ../admin/template-post.php:170
+msgid "Count"
+msgstr "数"
+
+#: ../admin/template-post.php:171
+msgid "Term Group"
+msgstr "Term Group"
+
+#: ../admin/template-post.php:176
+msgid "Order"
+msgstr "订单"
+
+#: ../admin/template-post.php:178
+msgid "ASC"
+msgstr "正序"
+
+#: ../admin/template-post.php:179
+msgid "DESC"
+msgstr "倒序"
+
+#: ../admin/template-post.php:184
+msgid "Selection Type"
+msgstr "选择类型"
+
+#: ../admin/template-post.php:186
+msgid "Exclude"
+msgstr "排除"
+
+#: ../admin/template-post.php:187
+msgid "Include"
+msgstr "包含"
+
+#: ../admin/template-post.php:188
+msgid "Child of"
+msgstr "子"
+
+#: ../admin/template-post.php:193
+msgid "Selection terms"
+msgstr "选择条款"
+
+#: ../admin/template-post.php:194
+msgid ""
+"Enter the term IDs as comma separated (without space) to exclude/include in "
+"the form."
+msgstr "输入条款的ID，使用英文逗号分隔（不是空格）以从表单排除/包含。"
+
+#: ../admin/template-post.php:198
+msgid "WooCommerce Attribute"
+msgstr "WooCommerce 属性"
+
+#: ../admin/template-post.php:204
+msgid "This taxonomy is a WooCommerce attribute"
+msgstr "这个分类是WooCommerce属性"
+
+#: ../admin/template-post.php:210
+msgid "Visibility"
+msgstr "可见性"
+
+#: ../admin/template-post.php:216
+msgid "Visible on product page"
+msgstr "产品页面上可见"
+
+#: ../admin/template-profile.php:131 ../class/edit-profile.php:193
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: ../admin/template-profile.php:143
+msgid "Minimum password length"
+msgstr "最小密码长度"
+
+#: ../admin/template-profile.php:149
+msgid "Password Re-type"
+msgstr "再次输入密码"
+
+#: ../admin/template-profile.php:155
+msgid "Require Password repeat"
+msgstr "必须重复密码"
+
+#: ../admin/template-profile.php:161
+msgid "Re-type password label"
+msgstr "再次输入密码标签"
+
+#: ../admin/template-profile.php:167
+msgid "Password Strength Meter"
+msgstr "密码强度表"
+
+#: ../admin/template-profile.php:173
+msgid "Show password strength meter"
+msgstr "显示密码强度表"
+
+#: ../admin/template.php:25
+msgid "Click and Drag to rearrange"
+msgstr "单击并拖动重新排列"
+
+#: ../admin/template.php:29
+msgid "Remove"
+msgstr "移除"
+
+#: ../admin/template.php:30
+msgid "Toggle"
+msgstr "切换"
+
+#: ../admin/template.php:69
+msgid "Required"
+msgstr "必需"
+
+#: ../admin/template.php:78
+msgid "Field Label"
+msgstr "字段标签"
+
+#: ../admin/template.php:79
+msgid "Enter a title of this field"
+msgstr "输入此字段标题"
+
+#: ../admin/template.php:84 ../admin/template.php:828
+msgid "Meta Key"
+msgstr "Meta Key"
+
+#: ../admin/template.php:85 ../admin/template.php:829
+msgid "Name of the meta key this field will save to"
+msgstr "meta key 名称这个字段将保存到"
+
+#: ../admin/template.php:96
+msgid "Help text"
+msgstr "帮助文字"
+
+#: ../admin/template.php:97
+msgid "Give the user some information about this field"
+msgstr "关于这个字段给用户一些提示信息"
+
+#: ../admin/template.php:101
+msgid "CSS Class Name"
+msgstr "CSS Class Name"
+
+#: ../admin/template.php:102
+msgid "Add a CSS class name for this field"
+msgstr "为这个字段添加一个CSS类名称"
+
+#: ../admin/template.php:127 ../admin/template.php:176
+#: ../admin/template.php:738
+msgid "Placeholder text"
+msgstr "占位符文本"
+
+#: ../admin/template.php:128
+msgid "Text for HTML5 placeholder attribute"
+msgstr "HTML5占位符文本属性"
+
+#: ../admin/template.php:132 ../admin/template.php:181
+#: ../admin/template.php:743
+msgid "Default value"
+msgstr "默认值"
+
+#: ../admin/template.php:133
+msgid "The default value this field will have"
+msgstr "字段默认值"
+
+#: ../admin/template.php:137 ../admin/template.php:748
+msgid "Size"
+msgstr "大小"
+
+#: ../admin/template.php:138
+msgid "Size of this input field"
+msgstr "输入字段的大小"
+
+#: ../admin/template.php:166
+msgid "Rows"
+msgstr "行"
+
+#: ../admin/template.php:171 ../admin/template.php:753
+msgid "Columns"
+msgstr "列"
+
+#: ../admin/template.php:189
+msgid "Normal"
+msgstr "正常"
+
+#: ../admin/template.php:190
+msgid "Rich textarea"
+msgstr "丰富文本区域"
+
+#: ../admin/template.php:191
+msgid "Teeny Rich textarea"
+msgstr "极小丰富文本区域"
+
+#: ../admin/template.php:224
+msgid "Show values"
+msgstr "显示值"
+
+#: ../admin/template.php:227 ../admin/template.php:395
+#: ../admin/template.php:1078
+msgid "Label"
+msgstr "标签"
+
+#: ../admin/template.php:227 ../admin/template.php:395
+msgid "Value"
+msgstr "值"
+
+#: ../admin/template.php:279
+msgid "Conditional Logic"
+msgstr "逻辑条件 "
+
+#: ../admin/template.php:394
+msgid "show values"
+msgstr "显示值"
+
+#: ../admin/template.php:487 ../admin/template.php:511
+#: ../admin/template.php:543 ../admin/template.php:575
+#: ../templates/dashboard.php:36
+msgid "Options"
+msgstr "选项"
+
+#: ../admin/template.php:527 ../admin/template.php:559
+msgid ""
+"First element of the select dropdown. Leave this empty if you don't want to "
+"show this field"
+msgstr "选择下拉的第一个元素。如果你不想显示这个字段请留空"
+
+#: ../admin/template.php:538 ../admin/template.php:570
+msgid "Select Text"
+msgstr "选择下拉。离开这个空如果你不想显示"
+
+#: ../admin/template.php:596 ../admin/template.php:635
+msgid "Number of images can be uploaded"
+msgstr "可以上传的图片数量"
+
+#: ../admin/template.php:612 ../admin/template.php:651
+msgid "Max. files"
+msgstr "最大文件"
+
+#: ../admin/template.php:730
+msgid "Multiple Column"
+msgstr "多列"
+
+#: ../admin/template.php:798 ../admin/template.php:857
+#: ../admin/template.php:885 ../admin/template.php:915
+#: ../templates/dashboard.php:26
+msgid "Title"
+msgstr "标题"
+
+#: ../admin/template.php:803
+msgid "HTML Codes"
+msgstr "HTML 代码"
+
+#: ../admin/template.php:835
+msgid "Meta Value"
+msgstr "Meta 值"
+
+#: ../admin/template.php:836
+msgid "Enter the meta value"
+msgstr "输入meta值"
+
+#: ../admin/template.php:891
+#, php-format
+msgid ""
+"Insert your public key and private key in <a href='%s'>plugin settings</a>. "
+"<a href='https://www.google.com/recaptcha/' target='_blank'>Register</a> "
+"first if you don't have any keys."
+msgstr ""
+"插入你的公开和私密密匙在 <a href='%s'>插件设置</a>. 如果你还没有请在这里 <a "
+"href='https://www.google.com/recaptcha/' target='_blank'>注册</a> ."
+
+#: ../admin/template.php:921
+msgid ""
+"Depends on <a href='http://wordpress.org/extend/plugins/really-simple-"
+"captcha/' target='_blank'>Really Simple Captcha</a> Plugin. Install it first."
+msgstr ""
+"取决于 <a href='http://wordpress.org/extend/plugins/really-simple-captcha/' "
+"target='_blank'>真正简单验证码</a> 插件. 先安装它."
+
+#: ../admin/template.php:942
+msgid "Hook Name"
+msgstr "Hook 名"
+
+#: ../admin/template.php:945
+msgid "Name of the hook"
+msgstr " hook名称"
+
+#: ../admin/template.php:948
+msgid ""
+"An option for developers to add dynamic elements they want. It provides the "
+"chance to add whatever input type you want to add in this form."
+msgstr "为开发者添加动态元素。"
+
+#: ../admin/template.php:949
+msgid ""
+"This way, you can bind your own functions to render the form to this action "
+"hook. You'll be given 3 parameters to play with: $form_id, $post_id, "
+"$form_settings."
+msgstr ""
+"you can bind your own functions to render the form to this action hook. "
+"You'll be given 3 parameters to play with: $form_id, $post_id, "
+"$form_settings."
+
+#: ../admin/template.php:971
+msgid "The date format"
+msgstr "日期格式"
+
+#: ../admin/template.php:982
+msgid "Date Format"
+msgstr "日期格式"
+
+#: ../admin/template.php:987
+msgid "Time"
+msgstr "时间"
+
+#: ../admin/template.php:993
+msgid "Enable time input"
+msgstr "启用时间输入框"
+
+#: ../admin/template.php:1014
+msgid "Set the map zoom level"
+msgstr "设置地图放大层级"
+
+#: ../admin/template.php:1015
+msgid "Enter default latitude and longitude to center the map"
+msgstr "为中心地图输入默认经度和纬度"
+
+#: ../admin/template.php:1026
+msgid "Zoom Level"
+msgstr "放大层级"
+
+#: ../admin/template.php:1031
+msgid "Default Co-ordinate"
+msgstr "默认协调"
+
+#: ../admin/template.php:1036
+msgid "Address Button"
+msgstr "地址按钮"
+
+#: ../admin/template.php:1042
+msgid "Show address find button"
+msgstr "显示地址查找按钮"
+
+#: ../admin/template.php:1048
+msgid "Show Latitude/Longitude"
+msgstr "显示纬度/经度"
+
+#: ../admin/template.php:1054
+msgid "Show latitude and longitude input box value"
+msgstr "显示纬度和经度输入框值"
+
+#: ../admin/template.php:1083
+msgid "Terms & Conditions"
+msgstr "条款协议"
+
+#: ../admin/template.php:1084
+msgid "Insert terms and condtions here."
+msgstr "输入条款协议在这里"
+
+#: ../admin/transaction.php:72
+msgid "WP User Frontend: Payments Received"
+msgstr "WP User Frontend:付款收到了"
+
+#: ../admin/transaction.php:76
+msgid "Total Income:"
+msgstr "总收入："
+
+#: ../admin/transaction.php:79
+msgid "This Month:"
+msgstr "本月："
+
+#: ../admin/transaction.php:85
+msgid "Transaction(s) deleted"
+msgstr "交易删除"
+
+#: ../admin/transaction.php:96
+msgid "User ID"
+msgstr "用户 ID"
+
+#: ../admin/transaction.php:97 ../templates/dashboard.php:27
+msgid "Status"
+msgstr "状态"
+
+#: ../admin/transaction.php:99
+msgid "Post"
+msgstr "文章"
+
+#: ../admin/transaction.php:100
+msgid "Pack ID"
+msgstr "包ID"
+
+#: ../admin/transaction.php:101
+msgid "Payer"
+msgstr "付款人"
+
+#: ../admin/transaction.php:104
+msgid "Transaction ID"
+msgstr "交易ID"
+
+#: ../admin/transaction.php:105
+msgid "Created"
+msgstr "已创建"
+
+#: ../admin/transaction.php:146 ../admin/transaction.php:208
+msgid "Nothing Found"
+msgstr "什么也没有"
+
+#: ../admin/transaction.php:153
+msgid "Delete Selected"
+msgstr "删除所选 "
+
+#: ../admin/transaction.php:157
+msgid "Pending Orders"
+msgstr "等待中的订单"
+
+#: ../admin/transaction.php:173
+msgid "ID"
+msgstr "ID"
+
+#: ../admin/transaction.php:174
+msgid "User"
+msgstr "用户"
+
+#: ../admin/transaction.php:177
+msgid "Item Details"
+msgstr "项目详情"
+
+#: ../admin/transaction.php:197
+msgid "Accept"
+msgstr "Accept"
+
+#: ../admin/transaction.php:198
+msgid "Reject"
+msgstr "拒绝"
+
+#: ../admin/transaction.php:215
+msgid "No pending orders found"
+msgstr "没有找到等待订单"
+
+#: ../class/coupons.php:95
+msgid "Sorry invalid coupon code!"
+msgstr "对不起无效的优惠码!"
+
+#: ../class/coupons.php:147
+msgid "Coupon is not availiable for this package!"
+msgstr "优惠券不能再此包下使用!"
+
+#: ../class/coupons.php:151
+msgid "Coupon usage limit exceeded!"
+msgstr "优惠券使用超过限制!"
+
+#: ../class/coupons.php:155
+msgid "Sorry, this coupon has been expired!"
+msgstr "对不起,这个优惠券已经过期!"
+
+#: ../class/coupons.php:159
+msgid "You are not allowed to use this coupon!"
+msgstr "您不允许使用这个优惠券!"
+
+#: ../class/edit-profile.php:31 ../class/frontend-dashboard.php:35
+#, php-format
+msgid "This page is restricted. Please %s to view this page."
+msgstr "页面是受限制. 请 %s 查看此页."
+
+#: ../class/edit-profile.php:70
+msgid "<strong>Success</strong>: Profile updated"
+msgstr "<strong>成功</strong>: 配置文件更新"
+
+#: ../class/edit-profile.php:101
+msgid "Usernames cannot be changed."
+msgstr "用户名不能修改。"
+
+#: ../class/edit-profile.php:114 ../class/edit-profile.php:155
+msgid "(required)"
+msgstr "(required)"
+
+#: ../class/edit-profile.php:119
+msgid "Display to Public as"
+msgstr "公开显示为"
+
+#: ../class/edit-profile.php:151
+msgid "Contact Info"
+msgstr "联系方式"
+
+#: ../class/edit-profile.php:178
+msgid "About Yourself"
+msgstr "关于你"
+
+#: ../class/edit-profile.php:184
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr "填写你的资料信息，这些可能会公开显示"
+
+#: ../class/edit-profile.php:187
+msgid "New Password"
+msgstr "新密码 "
+
+#: ../class/edit-profile.php:195
+msgid "Type your new password again."
+msgstr "再次输入密码"
+
+#: ../class/edit-profile.php:200
+msgid "Password Strength"
+msgstr "密码强度 "
+
+#: ../class/edit-profile.php:202 ../class/render-form.php:1172
+msgid "Strength indicator"
+msgstr "强度指标"
+
+#: ../class/edit-profile.php:288
+msgid "Post Count:"
+msgstr "文章数:"
+
+#: ../class/edit-profile.php:294
+msgid "Validity:"
+msgstr "有效期:"
+
+#: ../class/frontend-dashboard.php:66
+msgid "Post Deleted"
+msgstr "删除文章"
+
+#: ../class/frontend-dashboard.php:104
+msgid "Author Info"
+msgstr "作者信息"
+
+#: ../class/frontend-dashboard.php:108 ../class/frontend-form-profile.php:302
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../class/frontend-dashboard.php:140
+msgid "You are not the post author. Cheeting huh!"
+msgstr "你不是文章作者，Cheeting huh!"
+
+#: ../class/frontend-form-post.php:72
+msgid "You are not logged in"
+msgstr "你没有登录"
+
+#: ../class/frontend-form-post.php:81
+msgid "Post Editing is disabled"
+msgstr "禁止文章编辑"
+
+#: ../class/frontend-form-post.php:87
+msgid "Invalid post"
+msgstr "无效文章"
+
+#: ../class/frontend-form-post.php:92
+msgid "You are not allowed to edit"
+msgstr "你没有权限编辑"
+
+#: ../class/frontend-form-post.php:104
+msgid "I don't know how to edit this post, I don't have the form ID"
+msgstr "我不知道如何编辑这个文章，我没有这个表单ID"
+
+#: ../class/frontend-form-post.php:110
+msgid "You can't edit a post while in pending mode."
+msgstr "你不能编辑等待模式的文章"
+
+#: ../class/frontend-form-post.php:169
+msgid "Invalid email address."
+msgstr "电子邮件地址无效"
+
+#: ../class/frontend-form-post.php:451 ../class/frontend-form-profile.php:282
+msgid "Something went wrong"
+msgstr "未知错误"
+
+#: ../class/frontend-form-profile.php:31
+msgid "Please select subscription page"
+msgstr "请选择订阅页面"
+
+#: ../class/frontend-form-profile.php:60
+msgid "Please login to update your profile!"
+msgstr "请登录以更新个人资料"
+
+#: ../class/frontend-form-profile.php:65
+msgid "You are already logged in!"
+msgstr "你已经登录！"
+
+#: ../class/frontend-form-profile.php:70
+msgid "User registration is currently not allowed."
+msgstr "当前不允许用户注册"
+
+#: ../class/frontend-form-profile.php:154
+msgid "An Email address is required"
+msgstr "Email 地址是必填"
+
+#: ../class/frontend-form-profile.php:163
+msgid "Username already exists."
+msgstr "用户名已存在。"
+
+#: ../class/frontend-form-profile.php:172
+msgid "E-mail address already exists."
+msgstr "E-mail 地址已存在。"
+
+#: ../class/frontend-form-profile.php:182
+msgid "Username is not valid"
+msgstr "用户名无效"
+
+#: ../class/frontend-form-profile.php:193
+#: ../class/frontend-form-profile.php:406
+#, php-format
+msgid "Password must be %s character long"
+msgstr "密码必须 %s 个字符长"
+
+#: ../class/frontend-form-profile.php:198
+#: ../class/frontend-form-profile.php:411
+msgid "Password didn't match"
+msgstr "密码不匹配"
+
+#: ../class/frontend-form-profile.php:268
+msgid "Please check your email for activation link"
+msgstr "请检查你的电子邮件并激活链接"
+
+#: ../class/frontend-form-profile.php:300
+#, php-format
+msgid "Congrats! You are Successfully registered to %s:"
+msgstr "恭喜! 您成功注册 %s:"
+
+#: ../class/frontend-form-profile.php:301
+msgid "To activate your account, please click the link below"
+msgstr "激活您的帐户,请点击下面的链接"
+
+#: ../class/frontend-form-profile.php:308
+#, php-format
+msgid "[%s] Account Activation"
+msgstr "[%s] 账户激活"
+
+#: ../class/login.php:203 ../class/login.php:258
+#: ../templates/login-form.php:30
+msgid "Log In"
+msgstr "登录 "
+
+#: ../class/login.php:211
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: ../class/login.php:248
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"请输入您的用户名或电子邮件地址。您将通过电子邮件收到一个链接来创建一个新的密"
+"码。"
+
+#: ../class/login.php:258
+#, php-format
+msgid "Your password has been reset. %s"
+msgstr "您的密码已重置. %s"
+
+#: ../class/login.php:262
+msgid "Enter your new password below.."
+msgstr "输入您的新密码"
+
+#: ../class/login.php:272
+msgid "Check your e-mail for the confirmation link."
+msgstr "检查您的电子邮件确认链接。"
+
+#: ../class/login.php:276
+msgid "You are now logged out."
+msgstr "您现在已登录。"
+
+#: ../class/login.php:304 ../class/login.php:309 ../class/login.php:314
+#: ../class/login.php:324
+msgid "Error"
+msgstr "Error"
+
+#: ../class/login.php:309
+msgid "Username is required."
+msgstr "用户名是必需的。"
+
+#: ../class/login.php:314
+msgid "Password is required."
+msgstr "密码是必需的。"
+
+#: ../class/login.php:324
+msgid "A user could not be found with this email address."
+msgstr "用户无法找到此邮件地址。"
+
+#: ../class/login.php:409
+msgid "Please enter your password."
+msgstr "请输入您的密码"
+
+#: ../class/login.php:414
+msgid "Passwords do not match."
+msgstr "密码不匹配"
+
+#: ../class/login.php:457
+msgid "Enter a username or e-mail address."
+msgstr "输入的用户名或电子邮件地址。"
+
+#: ../class/login.php:465
+msgid "There is no user registered with that email address."
+msgstr "此邮件未注册。"
+
+#: ../class/login.php:483
+msgid "Invalid username or e-mail."
+msgstr "无效的用户名或电子邮件。"
+
+#: ../class/login.php:497
+msgid "Password reset is not allowed for this user"
+msgstr "不允许修改密码"
+
+#: ../class/login.php:541 ../class/login.php:546 ../class/login.php:553
+msgid "Invalid key"
+msgstr "无效 key"
+
+#: ../class/login.php:576
+msgid ""
+"<strong>Your account is not active.</strong><br>Please check your email for "
+"activation link."
+msgstr "<strong>您的帐户未激活.</strong><br>请查看您的邮件激活链接"
+
+#: ../class/login.php:624
+msgid "Your account has been activated"
+msgstr "您的帐户已被激活"
+
+#: ../class/login.php:668
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "帐户的密码重置:"
+
+#: ../class/login.php:670
+#, php-format
+msgid "Username: %s"
+msgstr "用户名: %s"
+
+#: ../class/login.php:671
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果这不是您操纵的，请忽略这封邮件。"
+
+#: ../class/login.php:672
+msgid "To reset your password, visit the following address:"
+msgstr "重置您的密码,请访问以下地址:"
+
+#: ../class/login.php:681
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: ../class/login.php:687
+msgid "The e-mail could not be sent."
+msgstr "邮件未发送"
+
+#: ../class/login.php:687
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "可能原因: 您的主机禁用了 mail() 函数"
+
+#: ../class/payment.php:22 ../class/payment.php:23
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../class/payment.php:27 ../class/payment.php:28
+msgid "Bank Payment"
+msgstr "银行付款"
+
+#: ../class/payment.php:63
+msgid "Please select your payment page from admin panel"
+msgstr "请选择你的支付页面管理面板"
+
+#: ../class/payment.php:109
+msgid "Your free package has been activated. Enjoy!"
+msgstr "恭喜！您免费包已经被激活。"
+
+#: ../class/payment.php:111
+msgid "You already have activated a free package previously."
+msgstr "之前您已经激活一个免费的包了。"
+
+#: ../class/payment.php:143
+msgid "Apply Coupon"
+msgstr "使用优惠券 "
+
+#: ../class/payment.php:144
+msgid "Cancel"
+msgstr "取消"
+
+#: ../class/payment.php:147
+msgid "Have a discount code?"
+msgstr "有一个折扣code?"
+
+#: ../class/payment.php:153
+msgid "Choose Your Payment Method"
+msgstr "选择你的支付方式"
+
+#: ../class/payment.php:190
+msgid "Proceed"
+msgstr "继续进行"
+
+#: ../class/payment.php:194
+msgid "No Payment gateway found"
+msgstr "没找到支付方式"
+
+#: ../class/payment.php:361 ../lib/gateway/bank.php:95
+#, php-format
+msgid "[%s] Payment Received"
+msgstr "[%s] 已收到付款"
+
+#: ../class/payment.php:362
+#, php-format
+msgid "New payment received at %s"
+msgstr "新的付款收到在%s"
+
+#: ../class/render-form.php:74
+msgid "Really Simple Captcha validation failed"
+msgstr "很简单的验证码验证失败"
+
+#: ../class/render-form.php:95
+msgid "reCAPTCHA validation failed"
+msgstr "验证码验证失败"
+
+#: ../class/render-form.php:789
+msgid "Insert Photo"
+msgstr "插入照片"
+
+#: ../class/render-form.php:840
+msgid "Select File(s)"
+msgstr "选择文件"
+
+#: ../class/render-form.php:851
+msgid "Download File"
+msgstr "下载文件"
+
+#: ../class/render-form.php:910
+msgid "Select Image"
+msgstr "选择图像"
+
+#: ../class/render-form.php:1244 ../class/render-form.php:1260
+msgid "Add another"
+msgstr "另一个 "
+
+#: ../class/render-form.php:1245 ../class/render-form.php:1261
+msgid "Remove this choice"
+msgstr "删除这个选择"
+
+#: ../class/render-form.php:1323 ../class/render-form.php:1425
+#: ../class/render-form.php:1448
+msgid "-- Select --"
+msgstr "-- 选择 --"
+
+#: ../class/render-form.php:1600
+msgid "Error: Really Simple Captcha plugin not found!"
+msgstr "错误：真正简单验证码插件没找到！"
+
+#: ../class/render-form.php:1672
+msgid "Type an address to find"
+msgstr "输入一个地址以查找"
+
+#: ../class/render-form.php:1673
+msgid "Find Address"
+msgstr "查找地址"
+
+#: ../class/settings.php:53
+msgid "WP User Frontend"
+msgstr "WP用户前端化"
+
+#: ../class/settings.php:53
+msgid "User Frontend"
+msgstr "用户前端化"
+
+#: ../class/settings.php:55 ../class/subscription.php:271
+#: ../class/subscription.php:291 ../class/subscription.php:292
+#: ../class/subscription.php:293
+msgid "Subscription"
+msgstr "订购"
+
+#: ../class/settings.php:56
+msgid "Coupons"
+msgstr " 优惠券"
+
+#: ../class/settings.php:58
+msgid "Transaction"
+msgstr "交易"
+
+#: ../class/settings.php:59
+msgid "Add-ons"
+msgstr "添加"
+
+#: ../class/subscription.php:294
+msgid "Add Subscription"
+msgstr "增加订购"
+
+#: ../class/subscription.php:295
+msgid "Add New Subscription"
+msgstr "添加新订购"
+
+#: ../class/subscription.php:297
+msgid "Edit Subscription"
+msgstr "编辑订购"
+
+#: ../class/subscription.php:298
+msgid "New Subscription"
+msgstr "新订阅 购"
+
+#: ../class/subscription.php:299 ../class/subscription.php:300
+msgid "View Subscription"
+msgstr "查看订阅"
+
+#: ../class/subscription.php:301
+msgid "Search Subscription"
+msgstr "搜索订购"
+
+#: ../class/subscription.php:302
+msgid "No Subscription Found"
+msgstr "没有发现订购"
+
+#: ../class/subscription.php:303
+msgid "No Subscription Found in Trash"
+msgstr "在会回收站没有发现订购"
+
+#: ../class/subscription.php:304
+msgid "Parent Subscription"
+msgstr "家长订阅"
+
+#: ../class/subscription.php:333
+msgid "Billing Details"
+msgstr "账单明细"
+
+#: ../class/subscription.php:602
+msgid "Package billing details: "
+msgstr "包账单的明细"
+
+#: ../class/subscription.php:651
+msgid "Change"
+msgstr "更改"
+
+#: ../class/subscription.php:668
+msgid "Please enable force pack and charge posting from admin panel"
+msgstr "请在管理面板从新发布force pack"
+
+#: ../class/subscription.php:722
+msgid "Sign Up"
+msgstr "注册"
+
+#: ../class/subscription.php:727
+msgid "Buy Now"
+msgstr "立即订购"
+
+#: ../class/subscription.php:743
+msgid "Terms: "
+msgstr "条款 :"
+
+#: ../class/subscription.php:776
+#, php-format
+msgid "This will cost you <strong>%s</strong> to add a new post. "
+msgstr "这将花费你<strong>%s</strong>以添加新的文章. "
+
+#: ../class/subscription.php:796
+#, php-format
+msgid "You must <a href=\"%s\">purchase a pack</a> before posting"
+msgstr "你必须<a href=\"%s\">购买一个包</a>发文章之前"
+
+#: ../class/updates.php:34
+msgid "Updates"
+msgstr "更新"
+
+#: ../class/updates.php:57
+#, php-format
+msgid ""
+"Please <a href=\"%s\">enter</a> your <strong>WP User Frontend</strong> "
+"plugin license key to get regular update and support."
+msgstr ""
+"请<a href=\"%s\">输入</a> 你的 <strong>WP 用户前端化</strong>插件许可以方便升"
+"级"
+
+#: ../class/updates.php:72
+msgid "Pleae activate your copy"
+msgstr "请激活你的副本"
+
+#: ../class/updates.php:99
+msgid "WP User Frontend Error:"
+msgstr "WP用户前端化错误:"
+
+#: ../class/updates.php:292
+msgid "Empty email address"
+msgstr "空email 地址"
+
+#: ../class/updates.php:296
+msgid "Empty license key"
+msgstr "空的许可"
+
+#: ../class/updates.php:314
+msgid "Settings Saved"
+msgstr "设置已保存"
+
+#: ../class/updates.php:330
+msgid "Plugin Activation"
+msgstr "插件更新"
+
+#: ../class/updates.php:353
+msgid "E-mail Address"
+msgstr "E-mail 地址"
+
+#: ../class/updates.php:356
+msgid "Enter your purchase Email address"
+msgstr "输入您购买的电子邮件地址"
+
+#: ../class/updates.php:360
+msgid "License Key"
+msgstr "授权码 "
+
+#: ../class/updates.php:363
+msgid "Enter your license key"
+msgstr "输入您的许可证密钥"
+
+#: ../class/updates.php:373
+msgid "Plugin is activated"
+msgstr "插件已激活"
+
+#: ../class/updates.php:377
+msgid "Delete License"
+msgstr "删除授权"
+
+#: ../lib/gateway/bank.php:29
+msgid "Bank Instruction"
+msgstr "银行指令"
+
+#: ../lib/gateway/bank.php:36
+msgid "Bank Payment Success Page"
+msgstr "银行支付成功页面"
+
+#: ../lib/gateway/bank.php:77
+#, php-format
+msgid "[%s] New Bank Order Received"
+msgstr "[%s]新银行卡已收到付款"
+
+#: ../lib/gateway/bank.php:78
+#, php-format
+msgid "New bank order received at %s, please check it out: %s"
+msgstr "新银行已收到订单%s,请单击 %s"
+
+#: ../lib/gateway/bank.php:96
+#, php-format
+msgid "Hello %s,"
+msgstr "Hello %s,"
+
+#: ../lib/gateway/bank.php:97
+msgid "We have received your bank payment."
+msgstr "我们已经收到您的银行付款。"
+
+#: ../lib/gateway/bank.php:98
+msgid "Thanks for being with us."
+msgstr "谢谢你加入我们队伍"
+
+#: ../lib/gateway/paypal.php:75
+#, php-format
+msgid "Subscription %s at %s"
+msgstr "订购 %s at %s"
+
+#: ../lib/gateway/paypal.php:106
+msgid "Paypal Email"
+msgstr "Paypal Email"
+
+#: ../lib/gateway/paypal.php:111
+msgid "PayPal Instruction"
+msgstr "PayPal 指令"
+
+#: ../lib/gateway/paypal.php:118
+msgid "Paypal api username"
+msgstr "Paypal api 用户名"
+
+#: ../lib/gateway/paypal.php:122
+msgid "Paypal api password"
+msgstr "Paypal api 密码"
+
+#: ../lib/gateway/paypal.php:126
+msgid "Paypal api signature"
+msgstr "Paypal api签名"
+
+#: ../templates/dashboard.php:2
+#, php-format
+msgid "%s's Dashboard"
+msgstr "%s's仪表盘 "
+
+#: ../templates/dashboard.php:6
+#, php-format
+msgid "You have created <span>%d</span> %s"
+msgstr "已经创建<span>%d</span> %s"
+
+#: ../templates/dashboard.php:33
+msgid "Payment"
+msgstr "付款方式 "
+
+#: ../templates/dashboard.php:54
+msgid "No Image"
+msgstr "没有图像 "
+
+#: ../templates/dashboard.php:68
+#, php-format
+msgid "Permalink to %s"
+msgstr "永久链接到 %s"
+
+#: ../templates/dashboard.php:84
+msgid "Pay Now"
+msgstr "立即支付"
+
+#: ../templates/dashboard.php:126
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: ../templates/dashboard.php:127
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../templates/dashboard.php:140
+#, php-format
+msgid "No %s found"
+msgstr "没有 %s 找到"
+
+#: ../templates/logged-in.php:8
+#, php-format
+msgid "Hello %s"
+msgstr "Hello %s"
+
+#: ../templates/logged-in.php:11
+#, php-format
+msgid "You are currently logged in! %s?"
+msgstr "您当前已登录! %s?"
+
+#: ../templates/login-form.php:26
+msgid "Remember Me"
+msgstr "记住我 "
+
+#: ../templates/lost-pass-form.php:14
+msgid "Username or E-mail:"
+msgstr "用户名或邮箱:"
+
+#: ../templates/lost-pass-form.php:21
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: ../templates/reset-pass-form.php:14
+msgid "New password"
+msgstr "新密码"
+
+#: ../templates/reset-pass-form.php:19
+msgid "Confirm new password"
+msgstr "确认密码"
+
+#: ../templates/reset-pass-form.php:26
+msgid "Reset Password"
+msgstr "重置密码"
